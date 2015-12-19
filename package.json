@@ -1,0 +1,29 @@
+{
+  "name": "wclanc2016-styles",
+  "version": "1.0.0",
+  "description": "Stylesheet for lancasterpa.wordcamp.org/2016 site.",
+  "author": "WC Lancaster organzing team",
+  "homepage": "https://lancasterpa.wordcamp.org/2016",
+  "licenses": "GPL-2.0+",
+  "devDependencies": {
+    "css-parse": "latest",
+    "glob": "latest",
+    "grunt": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-combine-media-queries": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-csscomb": "latest",
+    "grunt-githooks": "latest",
+    "grunt-newer": "latest",
+    "grunt-sass": "latest",
+    "grunt-sassdoc": "latest",
+    "grunt-shell": "latest",
+    "grunt-update-submodules": "latest",
+    "load-grunt-tasks": "latest"
+  }
+}
