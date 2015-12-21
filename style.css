@@ -11,6 +11,7 @@
   text-align: center;
   width: 100%;
   display: block;
+  position: relative;
   box-shadow: 0 6px #D32C13;
   -webkit-transition: none;
   -moz-transition: none;
@@ -18,7 +19,7 @@
   border-radius: 1rem;
 }
 
-.fp-links a:hover {
+.fp-links a:hover, .fp-links a:focus {
   box-shadow: 0 4px #D32C13;
   top: 2px;
 }
