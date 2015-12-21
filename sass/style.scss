@@ -1,11 +1,39 @@
 // WordCamp Lancaster 2016 - TwentySixteen theme style additions
-
 .fp-links {
+	display: block;
+
 	a {
 		background: #F93E21;
 		color: white;
 		font-family: Montserrat, "Helvetica Neue", sans-serif;
-		font-size: 2rem;
-		padding: 1rem;
+		font-size: 1rem;
+		padding: .5rem;
+		width: 100%;
+		display: block;
+		box-shadow: 0 6px #D32C13;
+	   -webkit-transition: none;
+	   -moz-transition: none;
+	   transition: none;
+
+		&:hover {
+			box-shadow: 0 4px #D32C13;
+			top: 2px;
+		}
+
+		&:active {
+			box-shadow: 0 0 #D32C13;
+			top: 6px;
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.fp-links {
+		display: flex;
+		justify-content: space-between;
+
+		a {
+			width: 100%;
+		}
 	}
 }
