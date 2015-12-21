@@ -8,12 +8,14 @@
 		font-family: Montserrat, "Helvetica Neue", sans-serif;
 		font-size: 1rem;
 		padding: .5rem;
+		text-align: center;
 		width: 100%;
 		display: block;
 		box-shadow: 0 6px #D32C13;
 	   -webkit-transition: none;
 	   -moz-transition: none;
 	   transition: none;
+	   border-radius: 1rem;
 
 		&:hover {
 			box-shadow: 0 4px #D32C13;
@@ -33,7 +35,8 @@
 		justify-content: space-between;
 
 		a {
-			width: 100%;
+			width: intrinsic;
+			min-width: 14rem;
 		}
 	}
 }
