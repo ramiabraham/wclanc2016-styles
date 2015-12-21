@@ -6,4 +6,5 @@ Stylesheet for lancasterpa.wordcamp.org/2016 site.
 - do cool stuff
 - `grunt sass`
 - `grunt cssmin`
-- The style.min.css file in this repository is loaded on the site form github, at: https://raw.githubusercontent.com/ramiabraham/wclanc2016-styles/master/style.min.css
+- The style.min.css file in this repository is loaded on the site from github, at: https://raw.githubusercontent.com/ramiabraham/wclanc2016-styles/master/style.min.css
+- You may need to hit update on the settings page `wp-admin/themes.php?page=remote-css`
