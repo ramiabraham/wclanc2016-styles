@@ -46,6 +46,7 @@ a.lanc-btn {
   transition: none;
   border-radius: 1rem;
   outline: 0;
+  margin: .5rem 0;
 }
 
 a.lanc-btn:hover, a.lanc-btn:focus {
