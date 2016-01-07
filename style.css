@@ -59,6 +59,14 @@ a.lanc-btn:active {
   top: 6px;
 }
 
+.note {
+  background: #F9CF00;
+  border-bottom: 2px solid #62393B;
+  border-radius: 3px;
+  padding: 1rem;
+  color: #62393B;
+}
+
 @media only screen and (min-width: 1024px) {
   .fp-links {
     display: flex;
