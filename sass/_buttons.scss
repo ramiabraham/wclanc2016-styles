@@ -1,0 +1,63 @@
+// Buttons and whatnot
+.fp-links {
+	display: block;
+
+	a {
+		background: #F93E21;
+		color: white;
+		font-family: Montserrat, "Helvetica Neue", sans-serif;
+		font-size: 1rem;
+		padding: .5rem;
+		text-align: center;
+		width: 100%;
+		display: block;
+		position: relative;
+		box-shadow: 0 6px #D32C13;
+	   -webkit-transition: none;
+	   -moz-transition: none;
+	   transition: none;
+	   border-radius: 1rem;
+	   outline: 0;
+
+		&:hover,
+		&:focus {
+			box-shadow: 0 4px #D32C13;
+			top: 2px;
+		}
+
+		&:active {
+			box-shadow: 0 0 #D32C13;
+			top: 6px;
+		}
+	}
+}
+// general-use button styles
+a.lanc-btn {
+	background: #F93E21;
+	color: white;
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-size: 1rem;
+	padding: .5rem;
+	text-align: center;
+	width: 100%;
+	display: block;
+	position: relative;
+	box-shadow: 0 6px #D32C13;
+   -webkit-transition: none;
+   -moz-transition: none;
+   transition: none;
+   border-radius: 1rem;
+   outline: 0;
+   margin: .5rem 0;
+
+	&:hover,
+	&:focus {
+		box-shadow: 0 4px #D32C13;
+		top: 2px;
+	}
+
+	&:active {
+		box-shadow: 0 0 #D32C13;
+		top: 6px;
+	}
+}
