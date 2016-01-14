@@ -85,23 +85,23 @@ a.lanc-btn:active {
   top: 6px;
 }
 
-@media only screen and (min-width: 1024px) {
-  .fp-links {
-    display: flex;
-    justify-content: space-between;
-  }
-  .fp-links a {
-    width: intrinsic;
-    min-width: 14rem;
-  }
-}
-
 .note {
   background: #F9CF00;
   border-bottom: 2px solid #62393B;
   border-radius: 3px;
   padding: 1rem;
   color: #62393B;
+}
+
+@media only screen and (min-width: 1024px) {
+  .fp-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fp-links a {
+    width: max-content;
+    min-width: 14rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
