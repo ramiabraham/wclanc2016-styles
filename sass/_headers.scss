@@ -25,6 +25,16 @@
 	color: #423736;
 }
 
+.site-header {
+	.site-title {
+		height: 14.5rem;
+
+		@include wider-than(tablet) {
+			height: 24.5rem;
+		}
+	}
+}
+
 .site-description {
 	position: absolute;
 	top: 0;
