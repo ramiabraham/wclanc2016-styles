@@ -278,6 +278,7 @@ img.wp-post-image {
 .note {
   line-height: 1.5;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 #subscribe-email {
