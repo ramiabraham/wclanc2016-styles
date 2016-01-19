@@ -46,7 +46,7 @@ h6,
 }
 
 #site-navigation {
-  background-color: #e1391d;
+  background-color: #fc432f;
   color: #fff;
 }
 
@@ -170,7 +170,7 @@ h6,
   top: 0;
   left: 0;
   right: 0;
-  background: #e1391d;
+  background: transparent;
   height: auto;
   padding: .5em;
   text-align: center;
