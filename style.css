@@ -136,32 +136,29 @@ h6,
   max-width: 320px;
   height: auto;
   margin: 0 auto;
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  text-transform: lowercase;
   line-height: 1;
+  text-indent: -9999px;
 }
 
-@media (min-width: 721px) {
-  .site-header .site-title a {
-    height: 222px;
-    overflow: hidden;
-  }
+.site-header .site-title a:before, .site-header .site-title a:after {
+  margin: 0 auto;
+  text-indent: 0;
+  display: block;
 }
 
 .site-header .site-title a:before {
-  content: '';
-  background: url("//lancasterpa.wordcamp.org/2016/files/2015/11/cropped-cropped-wordcamp-lancaster-logo-2016.png") 50% 50% no-repeat;
+  content: 'WordCamp';
+  background: url("//lancasterpa.wordcamp.org/2016/files/2015/11/cropped-cropped-wordcamp-lancaster-logo-2016.png") center center no-repeat;
   background-size: 158px 159px;
-  display: block;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
   height: 159px;
   width: 159px;
-  margin: 0 auto;
 }
 
 @media (min-width: 721px) {
   .site-header .site-title a:after {
-    display: block;
     content: 'Lancaster';
     text-align: center;
     text-transform: lowercase;
