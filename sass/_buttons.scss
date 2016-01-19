@@ -43,6 +43,7 @@ a.lanc-btn {
 	font-size: 1rem;
 	padding: .5rem;
 	text-align: center;
+	text-decoration: none;
 	width: 100%;
 	display: block;
 	position: relative;
@@ -64,4 +65,8 @@ a.lanc-btn {
 		box-shadow: 0 0 #D32C13;
 		top: 6px;
 	}
+}
+
+.widget-area .widget a.lanc-btn {
+	color: white;
 }
