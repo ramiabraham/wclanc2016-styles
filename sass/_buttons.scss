@@ -3,21 +3,6 @@
 	display: block;
 
 	a {
-		background: #F93E21;
-		color: white;
-		font-family: Montserrat, "Helvetica Neue", sans-serif;
-		font-size: 1rem;
-		padding: .5rem;
-		text-align: center;
-		width: 100%;
-		display: block;
-		position: relative;
-		box-shadow: 0 6px #D32C13;
-	   -webkit-transition: none;
-	   -moz-transition: none;
-	   transition: none;
-	   border-radius: 1rem;
-	   outline: 0;
 
 		&:hover,
 		&:focus {
@@ -35,7 +20,8 @@
 		}
 	}
 }
-// general-use button styles
+// button styles
+.fp-links a,
 a.lanc-btn {
 	background: #F93E21;
 	color: white;
