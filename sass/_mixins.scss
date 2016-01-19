@@ -1,3 +1,5 @@
+// Various common breakpoints
+
 $breakpoints: (
     tp-xxlarge: 2300px,
 	tp-xlarge: 1700px,
@@ -14,7 +16,6 @@ $breakpoints: (
     wp-short-admin-bar: 783px,
     tp-legacy-tablet: 770px,
     tablet-ipad: 768px,
-    video-inline: 751px, // video gallery module start to stack since video max-width is 643
     tablet: 721px,
     infographic-medium: 698px,
     tp-video-width: 642px,
