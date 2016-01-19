@@ -134,16 +134,19 @@ h6,
   font-size: 4rem;
   color: #423736;
   max-width: 320px;
+  height: auto;
   margin: 0 auto;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   text-transform: lowercase;
+  line-height: 1;
 }
 
-.site-header .site-title a:first-line {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
+@media (min-width: 721px) {
+  .site-header .site-title a {
+    height: 222px;
+    overflow: hidden;
+  }
 }
 
 .site-header .site-title a:before {
@@ -154,6 +157,17 @@ h6,
   height: 159px;
   width: 159px;
   margin: 0 auto;
+}
+
+@media (min-width: 721px) {
+  .site-header .site-title a:after {
+    display: block;
+    content: 'Lancaster';
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+  }
 }
 
 .site-description {

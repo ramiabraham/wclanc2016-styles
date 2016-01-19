@@ -21,16 +21,16 @@
 			font-size: 4rem;
 			color: #423736;
 			max-width: 320px;
+			height: auto;
 			margin: 0 auto;
-			font-family: 'Roboto Slab', serif;
-			font-weight: 300;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
 			text-transform: lowercase;
+			line-height: 1;
 
-
-			&:first-line {
-				font-family: 'Montserrat', sans-serif;
-				text-transform: uppercase;
-				font-weight: bold;
+			@include wider-than(tablet) {
+				height: 222px;
+				overflow: hidden;
 			}
 
 			// logo
@@ -42,6 +42,18 @@
 				height: 159px;
 				width: 159px;
 				margin: 0 auto;
+			}
+
+			&:after {
+
+				@include wider-than(tablet) {
+					display: block;
+					content: 'Lancaster';
+					text-align: center;
+					text-transform: lowercase;
+					font-weight: 300;
+					font-family: 'Roboto Slab', serif;
+				}
 			}
 		}
 	}
