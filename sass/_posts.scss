@@ -3,6 +3,13 @@
 	background: #F9CF00;
 	border-bottom: 2px solid #62393B;
 	border-radius: 3px;
-	padding: 1rem;
+	// .625rem = 10px
+	padding: 1rem 0 .625rem 0;
 	color: #62393B;
+	line-height: 1.5;
+}
+
+/* Remove box shadow on post images */
+img.wp-post-image {
+	box-shadow: none;
 }

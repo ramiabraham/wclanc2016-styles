@@ -1,0 +1,20 @@
+// Base styles and whatnot
+
+html {
+	background: url('//lancasterpa.wordcamp.org/2016/files/2016/01/map-background.png') fixed 50% 0 no-repeat;
+	background-size: 1600px 591px;
+}
+
+body {
+	background: none;
+}
+
+#page {
+	width: 100%;
+	max-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	background: none;
+	margin-top: 3em;
+	margin-bottom: 0;
+}

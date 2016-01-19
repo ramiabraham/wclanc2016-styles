@@ -1,0 +1,138 @@
+// Widget Styles
+
+.widget-area {
+
+    aside.widget {
+        color: #423736;
+        margin-bottom: 1.5em;
+    }
+
+    aside.widget .widget-title {
+        border-top: 3px solid #c9341a;
+        color: #423736;
+        font-size: 1.3em;
+    }
+
+    aside.widget .widget-title a {
+        color: #423736;
+    }
+
+    .widget_search #s {
+        width: 90%;
+        width: calc(100% - 12px);
+        border: 0;
+        border-radius: 0;
+    }
+
+    .widget_search input[type=submit] {
+        display: none;
+    }
+
+}
+
+.widget-title {
+line-height: 1.5;
+    padding: 25px 0 0;
+}
+
+//  Note widget
+.note {
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+// Subscription Widget
+#subscribe-email {
+    margin-bottom: 10px;
+}
+
+#subscribe-email input {
+    border-radius: 0;
+    padding: .428571429rem;
+    text-align: center;
+}
+
+#subscribe-submit input[type=submit] {
+    border-radius: 0;
+    border: none;
+    color: #fff;
+    width: 100%;
+    background-color: #c9341a;
+    background-image: -moz-linear-gradient(top,#c9341a,#c9341a);
+    background-image: -ms-linear-gradient(top,#c9341a,#c9341a);
+    background-image: -webkit-linear-gradient(top,#c9341a,#c9341a);
+    background-image: -o-linear-gradient(top,#c9341a,#c9341a);
+    background-image: linear-gradient(top,#c9341a,#c9341a);
+}
+
+// Venue Widget
+
+.confit-address,
+.confit-hour {
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+// Hide sponsor descriptions in sidebar
+.textwidget .wcorg-sponsor-description p {
+    display: none;
+}
+
+.wcb_widget_sponsors .sponsor-logo {
+    margin: .5em 0;
+}
+
+.wcb_widget_sponsors img {
+    box-shadow: none;
+}
+
+#tix-attendees li {
+    margin: 0;
+}
+
+#text-2 h3 span {
+    font-weight: 400;
+}
+
+#text-2 h4 {
+    display: inline;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+#text-2 h4 a {
+    color: #c9341a;
+    text-decoration: none;
+}
+
+#text-2 h4 a:hover {
+    text-decoration: underline;
+}
+
+.wcb_widget_sponsors .sponsor-level-title,
+#text-3 h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1.5em 0 .5em;
+}
+
+#text-3 h3,
+#text-3 .sharedaddy {
+    display: none;
+}
+
+#text-3 .widget-title {
+    display: block;
+}
+
+#text-3 img {
+    box-shadow: none;
+}
+
+#text-3 .wcorg-sponsor {
+    text-align: center;
+}
+
+#text-3 #wcorg-sponsor-700025 img {
+    background: #fff;
+}
