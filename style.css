@@ -124,7 +124,7 @@ h6,
 @media (min-width: 721px) {
   .site-header .site-title {
     height: 24.5rem;
-    padding-top: 6rem;
+    padding-top: 12rem;
   }
 }
 
@@ -150,6 +150,7 @@ h6,
 .site-header .site-title a:before {
   content: 'WordCamp';
   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
   font-size: 3.3rem;
   width: 300px;
 }
