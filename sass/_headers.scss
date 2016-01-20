@@ -49,15 +49,15 @@
 			}
 
 			&:after {
+				content: 'Lancaster';
+				text-align: center;
+				text-transform: lowercase;
+				font-weight: 300;
+				font-family: 'Roboto Slab', serif;
+				letter-spacing: .5rem;
 
 				@include wider-than(tablet) {
-					content: 'Lancaster';
-					text-align: center;
-					text-transform: lowercase;
-					font-weight: 300;
-					font-family: 'Roboto Slab', serif;
 					font-size: 4.3rem;
-					letter-spacing: .5rem;
 				}
 			}
 		}

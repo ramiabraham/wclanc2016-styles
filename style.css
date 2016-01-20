@@ -156,15 +156,18 @@ h6,
   width: 300px;
 }
 
+.site-header .site-title a:after {
+  content: 'Lancaster';
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 300;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: .5rem;
+}
+
 @media (min-width: 721px) {
   .site-header .site-title a:after {
-    content: 'Lancaster';
-    text-align: center;
-    text-transform: lowercase;
-    font-weight: 300;
-    font-family: 'Roboto Slab', serif;
     font-size: 4.3rem;
-    letter-spacing: .5rem;
   }
 }
 
