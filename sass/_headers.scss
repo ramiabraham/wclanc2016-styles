@@ -9,6 +9,7 @@
 	.site-title {
 		height: 14.5rem;
 		padding-top: 0;
+		text-align: center;
 
 		@include wider-than(tablet) {
 			height: 24.5rem;
@@ -56,6 +57,7 @@
 					font-weight: 300;
 					font-family: 'Roboto Slab', serif;
 					font-size: 4.3rem;
+					letter-spacing: .5rem;
 				}
 			}
 		}
