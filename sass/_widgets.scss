@@ -49,13 +49,22 @@ line-height: 1.5;
 
 #subscribe-email input {
     border-radius: 0;
-    padding: .428571429rem;
+    border: 0;
+    border-bottom: 4px solid white;
+    width: 98%;
+    background: #ededed;
+    padding: .5rem .25rem;
+    font-size: 1.25rem;
     text-align: center;
+    outline: 0;
+
+    &:active,
+    &:focus {
+        border-bottom: 4px solid $lanc_orange;
+    }
 }
 
 #subscribe-submit input[type=submit] {
-    border-radius: 0;
-    border: 0;
     @extend a.lanc-btn;
 }
 
