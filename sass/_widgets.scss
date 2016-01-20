@@ -55,15 +55,8 @@ line-height: 1.5;
 
 #subscribe-submit input[type=submit] {
     border-radius: 0;
-    border: none;
-    color: #fff;
-    width: 100%;
-    background-color: #c9341a;
-    background-image: -moz-linear-gradient(top,#c9341a,#c9341a);
-    background-image: -ms-linear-gradient(top,#c9341a,#c9341a);
-    background-image: -webkit-linear-gradient(top,#c9341a,#c9341a);
-    background-image: -o-linear-gradient(top,#c9341a,#c9341a);
-    background-image: linear-gradient(top,#c9341a,#c9341a);
+    border: 0;
+    @extend a.lanc-btn;
 }
 
 // Venue Widget

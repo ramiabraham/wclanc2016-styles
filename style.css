@@ -252,7 +252,8 @@ button.menu-toggle.toggled-on,
 }
 
 .fp-links a,
-a.lanc-btn {
+a.lanc-btn,
+#subscribe-submit input[type=submit] {
   background: #F93E21;
   color: white;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
@@ -274,18 +275,21 @@ a.lanc-btn {
 
 .fp-links a:hover, .fp-links a:focus,
 a.lanc-btn:hover,
-a.lanc-btn:focus {
+#subscribe-submit input[type=submit]:hover,
+a.lanc-btn:focus,
+#subscribe-submit input[type=submit]:focus {
   box-shadow: 0 4px #D32C13;
   top: 2px;
 }
 
 .fp-links a:active,
-a.lanc-btn:active {
+a.lanc-btn:active,
+#subscribe-submit input[type=submit]:active {
   box-shadow: 0 0 #D32C13;
   top: 6px;
 }
 
-.widget-area .widget a.lanc-btn {
+.widget-area .widget a.lanc-btn, .widget-area .widget #subscribe-submit input[type=submit], #subscribe-submit .widget-area .widget input[type=submit] {
   color: white;
 }
 
@@ -352,15 +356,7 @@ img.wp-post-image {
 
 #subscribe-submit input[type=submit] {
   border-radius: 0;
-  border: none;
-  color: #fff;
-  width: 100%;
-  background-color: #c9341a;
-  background-image: -moz-linear-gradient(top, #c9341a, #c9341a);
-  background-image: -ms-linear-gradient(top, #c9341a, #c9341a);
-  background-image: -webkit-linear-gradient(top, #c9341a, #c9341a);
-  background-image: -o-linear-gradient(top, #c9341a, #c9341a);
-  background-image: linear-gradient(top, #c9341a, #c9341a);
+  border: 0;
 }
 
 .confit-address,
