@@ -75,7 +75,11 @@
 	text-align: center;
 	color: #fff;
 	font-size: 1.5em;
-	line-height: 1;
+	display: block;
+    content: '';
+    height: 20px;
+    line-height: 1.4;
+    background: $lanc_orange;
 
 	&:after {
 		content: '';
