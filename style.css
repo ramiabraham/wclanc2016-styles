@@ -127,6 +127,7 @@ button.menu-toggle.toggled-on,
   background-color: #fc2c16;
   background-image: initial;
   border: none;
+  box-shadow: none;
 }
 
 #masthead {
