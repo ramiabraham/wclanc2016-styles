@@ -353,10 +353,11 @@ img.wp-post-image {
   border-radius: 0;
   border: 0;
   border-bottom: 4px solid white;
-  width: 98%;
+  width: 98% !important;
   background: #ededed;
   padding: .5rem .25rem;
   font-size: 1.25rem;
+  color: black;
   text-align: center;
   outline: 0;
 }
