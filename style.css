@@ -120,13 +120,8 @@ h6,
   height: 14.5rem;
   padding-top: 0;
   text-align: center;
-}
-
-@media (min-width: 721px) {
-  .site-header .site-title {
-    height: 9.5rem;
-    padding-top: 12rem;
-  }
+  height: 9.5rem;
+  padding-top: 12rem;
 }
 
 .site-header .site-title a {
@@ -152,8 +147,14 @@ h6,
   content: 'WordCamp';
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-size: 3.3rem;
+  font-size: 3rem;
   width: 300px;
+}
+
+@media (min-width: 721px) {
+  .site-header .site-title a:before {
+    font-size: 3.3rem;
+  }
 }
 
 .site-header .site-title a:after {
@@ -163,6 +164,7 @@ h6,
   font-weight: 300;
   font-family: 'Roboto Slab', serif;
   letter-spacing: .5rem;
+  font-size: 3rem;
 }
 
 @media (min-width: 721px) {
