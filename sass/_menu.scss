@@ -65,11 +65,20 @@
 	padding: 3rem 2em;
 }
 
-.menu-toggle {
+button.menu-toggle {
 	background-color: $lanc_orange;
 	color: #fff;
 	border: none;
 	border-radius: none;
 	background-image: initial;
 	width: 100%;
+}
+
+button.menu-toggle.toggled-on,
+.menu-toggle:hover,
+.menu-toggle:focus {
+	color: #fff;
+	background-color: darken($lanc_orange, 5%);
+	background-image: initial;
+	border: none;
 }

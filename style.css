@@ -111,12 +111,22 @@ h6,
   padding: 3rem 2em;
 }
 
-.menu-toggle {
+button.menu-toggle {
   background-color: #fc432f;
   color: #fff;
   border: none;
   border-radius: none;
   background-image: initial;
+  width: 100%;
+}
+
+button.menu-toggle.toggled-on,
+.menu-toggle:hover,
+.menu-toggle:focus {
+  color: #fff;
+  background-color: #fc2c16;
+  background-image: initial;
+  border: none;
 }
 
 #masthead {
