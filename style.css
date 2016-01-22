@@ -224,6 +224,10 @@ button.menu-toggle.toggled-on,
   color: #3e5579;
 }
 
+.site-header h2 {
+  line-height: 1.3rem;
+}
+
 .site-description {
   position: absolute;
   top: 0;
