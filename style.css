@@ -272,6 +272,7 @@ a.lanc-btn,
   border: 0;
   outline: 0;
   margin: .5rem 0;
+  box-sizing: border-box;
 }
 
 .fp-links a:hover, .fp-links a:focus,
