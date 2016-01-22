@@ -62,6 +62,10 @@
 					font-size: 4.3rem;
 				}
 			}
+
+			&:hover {
+				color: darken($lanc_light_blue, 20%);
+			}
 		}
 	}
 }

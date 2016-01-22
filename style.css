@@ -220,6 +220,10 @@ button.menu-toggle.toggled-on,
   }
 }
 
+.site-header .site-title a:hover {
+  color: #3e5579;
+}
+
 .site-description {
   position: absolute;
   top: 0;
