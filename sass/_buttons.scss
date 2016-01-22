@@ -58,3 +58,10 @@ a.lanc-btn {
 .widget-area .widget a.lanc-btn {
 	color: white;
 }
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+	@extend a.lanc-btn;
+	width: auto;
+}

@@ -274,6 +274,9 @@ button.menu-toggle.toggled-on,
 
 .fp-links a,
 a.lanc-btn,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
 #subscribe-submit input[type=submit] {
   background: #F93E21;
   color: white;
@@ -298,8 +301,14 @@ a.lanc-btn,
 
 .fp-links a:hover, .fp-links a:focus,
 a.lanc-btn:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
 #subscribe-submit input[type=submit]:hover,
 a.lanc-btn:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
 #subscribe-submit input[type=submit]:focus {
   box-shadow: 0 4px #D32C13;
   top: 2px;
@@ -307,13 +316,24 @@ a.lanc-btn:focus,
 
 .fp-links a:active,
 a.lanc-btn:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+input[type="reset"]:active,
 #subscribe-submit input[type=submit]:active {
   box-shadow: 0 0 #D32C13;
   top: 6px;
 }
 
-.widget-area .widget a.lanc-btn, .widget-area .widget #subscribe-submit input[type=submit], #subscribe-submit .widget-area .widget input[type=submit] {
+.widget-area .widget a.lanc-btn, .widget-area .widget input[type="submit"], .widget-area .widget
+input[type="button"], .widget-area .widget
+input[type="reset"], .widget-area .widget #subscribe-submit input[type=submit], #subscribe-submit .widget-area .widget input[type=submit] {
   color: white;
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+  width: auto;
 }
 
 .note {
