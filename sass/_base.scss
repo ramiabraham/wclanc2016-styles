@@ -5,7 +5,11 @@ html {
       rgba($lanc_yellow, 0.8),
       rgba($lanc_yellow, 0.8)
     ), url('//lancasterpa.wordcamp.org/2016/files/2016/01/map-bg-1600x800-sharp.jpg') fixed 50% 0 no-repeat;
-	background-size: cover;
+	background-size: 1600px 800px;
+
+	@include wider-than(tablet-small) {
+		background-size: cover;
+	}
 }
 
 body {
