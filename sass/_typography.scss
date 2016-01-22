@@ -14,7 +14,7 @@ h6,
 	font-family: Montserrat, Helvetica, Arial, sans-serif;
 	color: white;
 	font-weight: bold;
-	color: #7791ba;
+	color: $lanc_light_blue;
 }
 
 .site-header {
@@ -26,4 +26,12 @@ h6,
 .site-branding {
 	text-align: center;
 	margin: 0 auto;
+}
+
+a {
+	color: darken($lanc_light_blue, 20%);
+
+	&:hover {
+		color: darken($lanc_light_blue, 30%);
+	}
 }

@@ -33,7 +33,7 @@ h6,
   font-family: Montserrat, Helvetica, Arial, sans-serif;
   color: white;
   font-weight: bold;
-  color: #7791ba;
+  color: #6a87b3;
 }
 
 .site-header .site-title {
@@ -43,6 +43,14 @@ h6,
 .site-branding {
   text-align: center;
   margin: 0 auto;
+}
+
+a {
+  color: #3e5579;
+}
+
+a:hover {
+  color: #2d3e57;
 }
 
 #site-navigation {
