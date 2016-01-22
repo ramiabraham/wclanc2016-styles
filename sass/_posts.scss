@@ -7,9 +7,16 @@
 	padding: 1rem 0 .625rem 0;
 	color: #62393B;
 	line-height: 1.5;
+
+	// ul styles in .note divs
+	ul, li {
+		list-style-position: inside;
+		text-align: left;
+	}
 }
 
-/* Remove box shadow on post images */
+// Remove box shadow on post images
 img.wp-post-image {
 	box-shadow: none;
 }
+

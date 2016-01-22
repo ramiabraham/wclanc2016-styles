@@ -303,7 +303,11 @@ a.lanc-btn:active,
   line-height: 1.5;
 }
 
-/* Remove box shadow on post images */
+.note ul, .note li {
+  list-style-position: inside;
+  text-align: left;
+}
+
 img.wp-post-image {
   box-shadow: none;
 }
