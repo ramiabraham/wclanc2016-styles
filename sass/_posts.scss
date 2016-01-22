@@ -14,10 +14,14 @@
 		text-align: left;
 	}
 
-	table td {
-		border-top: 1px solid $lanc_orange;
-		padding: 1rem;
-		color: $lanc_brown;
+	table {
+		border-bottom: 1px solid #EDEC76;
+
+			td {
+			border-top: 1px solid #EDEC76;
+			padding: 1rem;
+			color: $lanc_brown;
+		}
 	}
 }
 

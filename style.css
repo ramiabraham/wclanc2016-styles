@@ -308,8 +308,12 @@ a.lanc-btn:active,
   text-align: left;
 }
 
+.note table {
+  border-bottom: 1px solid #EDEC76;
+}
+
 .note table td {
-  border-top: 1px solid #fc432f;
+  border-top: 1px solid #EDEC76;
   padding: 1rem;
   color: #62393B;
 }
