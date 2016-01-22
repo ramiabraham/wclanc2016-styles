@@ -308,6 +308,12 @@ a.lanc-btn:active,
   text-align: left;
 }
 
+.note table td {
+  border-top: 1px solid #fc432f;
+  padding: 1rem;
+  color: #62393B;
+}
+
 img.wp-post-image {
   box-shadow: none;
 }
