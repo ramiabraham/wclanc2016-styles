@@ -3,7 +3,7 @@ html {
   background-size: 1600px 800px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 960px) {
   html {
     background-size: cover;
   }
