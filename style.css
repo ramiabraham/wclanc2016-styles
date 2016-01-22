@@ -58,7 +58,7 @@ h6,
 
 @media (max-width: 600px) {
   #menu-nav {
-    widows: 100%;
+    width: 100%;
   }
   #menu-nav li {
     margin-top: 0;
