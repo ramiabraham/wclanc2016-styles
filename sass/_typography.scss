@@ -12,7 +12,6 @@ h6,
 .site-title,
 .site-description {
 	font-family: Montserrat, Helvetica, Arial, sans-serif;
-	color: white;
 	font-weight: bold;
 	color: $lanc_light_blue;
 }
@@ -29,9 +28,9 @@ h6,
 }
 
 a {
-	color: darken($lanc_light_blue, 20%);
+	color: darken($lanc_light_blue, 10%);
 
 	&:hover {
-		color: darken($lanc_light_blue, 30%);
+		color: darken($lanc_light_blue, 20%);
 	}
 }

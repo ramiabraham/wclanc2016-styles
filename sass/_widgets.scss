@@ -3,18 +3,18 @@
 .widget-area {
 
     aside.widget {
-        color: #423736;
+        color: $lanc_brown;
         margin-bottom: 1.5em;
     }
 
     aside.widget .widget-title {
-        border-top: 3px solid #c9341a;
-        color: #423736;
+        border-top: 3px solid $lanc_orange;
+        color: $lanc_brown;
         font-size: 1.3em;
     }
 
     aside.widget .widget-title a {
-        color: #423736;
+        color: $lanc_brown;
     }
 
     .widget_search #s {
