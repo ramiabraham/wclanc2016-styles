@@ -194,11 +194,11 @@ button.menu-toggle.toggled-on,
   content: 'WordCamp';
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2.8rem;
   width: 300px;
 }
 
-@media (min-width: 721px) {
+@media (min-width: 430px) {
   .site-header .site-title a:before {
     font-size: 3.3rem;
   }
@@ -211,10 +211,10 @@ button.menu-toggle.toggled-on,
   font-weight: 300;
   font-family: 'Roboto Slab', serif;
   letter-spacing: .5rem;
-  font-size: 3rem;
+  font-size: 3.8rem;
 }
 
-@media (min-width: 721px) {
+@media (min-width: 430px) {
   .site-header .site-title a:after {
     font-size: 4.3rem;
   }
