@@ -357,6 +357,20 @@ input[type="reset"] {
   width: auto;
 }
 
+.single-author article.post .entry-title a {
+  color: #62393B;
+  font-size: 1.6rem;
+  font-size: x-large;
+}
+
+@media (min-width: 721px) {
+  .single-author article.post .entry-title a {
+    font-size: 2.2rem;
+    font-size: xx-large;
+    font-size: -webkit-xxx-large;
+  }
+}
+
 .note {
   background: #F9CF00;
   border-bottom: 2px solid #62393B;

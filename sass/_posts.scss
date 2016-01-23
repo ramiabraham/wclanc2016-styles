@@ -1,4 +1,23 @@
 // Posts and whatnot
+
+.single-author {
+	article.post {
+		.entry-title {
+			a {
+				color: $lanc_brown;
+				font-size: 1.6rem;
+				font-size: x-large;
+
+				@include wider-than(tablet) {
+					font-size: 2.2rem;
+					font-size: xx-large;
+					font-size: -webkit-xxx-large;
+				}
+			}
+		}
+	}
+}
+
 .note {
 	background: #F9CF00;
 	border-bottom: 2px solid #62393B;
