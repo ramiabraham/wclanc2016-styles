@@ -1,16 +1,17 @@
 html {
-  background: linear-gradient(rgba(248, 205, 0, 0.8), rgba(248, 205, 0, 0.8)), url("//lancasterpa.wordcamp.org/2016/files/2016/01/map-bg-1600x800-sharp.jpg") fixed 50% 0 no-repeat;
+  background: #f8cd00;
+}
+
+body {
+  background-image: linear-gradient(rgba(248, 205, 0, 0.7), rgba(248, 205, 0, 0.7)), url("//lancasterpa.wordcamp.org/2016/files/2016/01/map-bg-1600x800-sharp.png") fixed 50% 0 no-repeat;
+  background-blend-mode: lighten;
   background-size: 1600px 800px;
 }
 
 @media (min-width: 960px) {
-  html {
+  body {
     background-size: cover;
   }
-}
-
-body {
-  background: none;
 }
 
 #page {

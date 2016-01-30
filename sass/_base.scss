@@ -1,19 +1,17 @@
 // Base styles and whatnot
 
 html {
-	background: linear-gradient(
-      rgba($lanc_yellow, 0.8),
-      rgba($lanc_yellow, 0.8)
-    ), url('//lancasterpa.wordcamp.org/2016/files/2016/01/map-bg-1600x800-sharp.jpg') fixed 50% 0 no-repeat;
+	background: $lanc_yellow;
+}
+
+body {
+	background-image: linear-gradient(rgba($lanc_yellow, 0.7),rgba($lanc_yellow, 0.7)), url('//lancasterpa.wordcamp.org/2016/files/2016/01/map-bg-1600x800-sharp.png') fixed 50% 0 no-repeat;
+	background-blend-mode: lighten;
 	background-size: 1600px 800px;
 
 	@include wider-than(tablet-large) {
 		background-size: cover;
 	}
-}
-
-body {
-	background: none;
 }
 
 #page {
