@@ -68,6 +68,21 @@ a:hover {
   color: #3d557b;
 }
 
+.entry-content a,
+.comment-content a {
+  color: #ff4122;
+}
+
+.entry-content a:visited,
+.comment-content a:visited {
+  color: #ff4122;
+}
+
+.entry-content a:hover,
+.comment-content a:hover {
+  color: #bb1a00;
+}
+
 #site-navigation {
   background-color: #ff4122;
   color: #fff;

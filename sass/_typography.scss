@@ -34,3 +34,16 @@ a {
 		color: darken($lanc_light_blue, 20%);
 	}
 }
+
+.entry-content a,
+.comment-content a {
+	color: $lanc_orange;
+
+	&:visited {
+		color: $lanc_orange;
+	}
+
+	&:hover {
+		color: darken($lanc_orange, 20%);
+	}
+}
