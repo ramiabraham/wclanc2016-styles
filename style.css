@@ -24,6 +24,15 @@ body {
   margin-bottom: 0;
 }
 
+footer[role="contentinfo"] {
+  border-top: none;
+  margin-top: none;
+}
+
+footer[role="contentinfo"] a {
+  color: #ff4122;
+}
+
 body {
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
