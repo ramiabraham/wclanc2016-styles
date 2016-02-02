@@ -442,6 +442,7 @@ img.header-image,
 
 .entry-content ul.speaker-announcements li .img-wrap {
   display: block;
+  position: absolute;
   margin: 0 auto;
   width: 270px;
   height: 270px;
