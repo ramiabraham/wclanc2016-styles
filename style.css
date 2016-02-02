@@ -440,21 +440,20 @@ img.header-image,
   text-align: center;
 }
 
+.entry-content ul.speaker-announcements li .img-wrap {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 270px;
+  background: transparent url("https://lancasterpa.wordcamp.org/2016/files/2016/02/lanc-speaker-avatar-bg.png") no-repeat center center;
+}
+
 .entry-content ul.speaker-announcements li img {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
   width: 250px;
   height: 250px;
-}
-
-.entry-content ul.speaker-announcements li img:after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 270px;
-  height: 270px;
-  background: transparent url("https://lancasterpa.wordcamp.org/2016/files/2016/02/lanc-speaker-avatar-bg.png") no-repeat center center;
 }
 
 .widget-area aside.widget {
