@@ -441,7 +441,6 @@ img.header-image,
 }
 
 .entry-content ul.speaker-announcements li .img-wrap {
-  content: '';
   display: block;
   width: 270px;
   height: 270px;
