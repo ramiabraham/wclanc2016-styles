@@ -446,6 +446,7 @@ img.header-image,
   width: 270px;
   height: 270px;
   background: transparent url("https://lancasterpa.wordcamp.org/2016/files/2016/02/lanc-speaker-avatar-bg.png") no-repeat center center;
+  background-size: contain;
 }
 
 .entry-content ul.speaker-announcements li img {
