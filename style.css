@@ -458,6 +458,25 @@ img.header-image,
   height: 252px;
 }
 
+.entry-content ul.speaker-announcements hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+.entry-content ul.speaker-announcements hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
 .widget-area aside.widget {
   color: #61393c;
   margin-bottom: 1.5em;
