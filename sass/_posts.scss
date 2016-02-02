@@ -78,6 +78,10 @@ img.header-image,
 				height: 270px;
 				background: transparent url('https://lancasterpa.wordcamp.org/2016/files/2016/02/lanc-speaker-avatar-bg.png') no-repeat center center;
 				background-size: contain;
+				-webkit-animation: rotating 60s linear infinite;
+	  			animation: rotating 60s linear infinite;
+            -webkit-transform-origin: center;
+            transform-origin: center;
 			}
 
 			img {
@@ -91,4 +95,26 @@ img.header-image,
 
 		}
 	}
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
