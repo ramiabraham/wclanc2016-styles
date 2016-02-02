@@ -433,6 +433,28 @@ img.header-image,
   list-style: none;
 }
 
+.entry-content ul.speaker-announcements li h3 {
+  color: #ff4122;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.entry-content ul.speaker-announcements li img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.entry-content ul.speaker-announcements li img:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  background: transparent url("https://lancasterpa.wordcamp.org/2016/files/2016/02/lanc-speaker-avatar-bg.png") no-repeat center center;
+}
+
 .widget-area aside.widget {
   color: #61393c;
   margin-bottom: 1.5em;
