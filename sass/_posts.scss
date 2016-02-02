@@ -57,10 +57,13 @@ img.header-image,
 // Styles for speaker announcements
 // See the first speaker announcement post
 // add .speaker-announcements class to the ul
-.speaker-announcements {
-	list-style: none;
 
-	li {
+.entry-content {
+	ul.speaker-announcements {
+		list-style: none;
 
+		li {
+
+		}
 	}
 }

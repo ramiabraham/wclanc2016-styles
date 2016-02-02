@@ -429,7 +429,7 @@ img.header-image,
   box-shadow: none;
 }
 
-.speaker-announcements {
+.entry-content ul.speaker-announcements {
   list-style: none;
 }
 
