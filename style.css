@@ -444,6 +444,8 @@ img.header-image,
   display: block;
   margin: 0 auto;
   border-radius: 50%;
+  width: 250px;
+  height: 250px;
 }
 
 .entry-content ul.speaker-announcements li img:after {
