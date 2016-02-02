@@ -429,6 +429,10 @@ img.header-image,
   box-shadow: none;
 }
 
+.speaker-announcements {
+  list-style: none;
+}
+
 .widget-area aside.widget {
   color: #61393c;
   margin-bottom: 1.5em;
