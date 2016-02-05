@@ -420,6 +420,10 @@ input[type="reset"] {
   color: #61393c;
 }
 
+.note.left {
+  text-align: left;
+}
+
 img.wp-post-image,
 .entry-content img,
 .comment-content img,
