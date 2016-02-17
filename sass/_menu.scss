@@ -74,8 +74,10 @@
 	text-align: left;
 }
 
-.main-navigation li ul li a:hover {
-	background: darken($lanc_orange, 30%);
+.main-navigation li ul li {
+	a:hover, a:focus {
+		background: darken($lanc_orange, 30%);
+	}
 }
 
 #site-navigation li ul li a:after {
