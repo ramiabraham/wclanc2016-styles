@@ -167,6 +167,9 @@ a:hover {
 #main {
   background: #fff;
   padding: 3rem 2em;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 button.menu-toggle {
