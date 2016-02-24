@@ -491,6 +491,20 @@ img.header-image,
   margin-left: 0;
 }
 
+.category-speaker-interviews .site-content .archive-header .archive-title {
+  font-size: 0;
+  text-align: center;
+  color: white;
+  width: max-content;
+  margin: 0 auto;
+  line-height: 1;
+}
+
+.category-speaker-interviews .site-content .archive-header .archive-title span {
+  font-size: 2.5rem;
+  color: #ff4122;
+}
+
 .widget-area aside.widget {
   color: #61393c;
   margin-bottom: 1.5em;

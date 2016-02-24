@@ -118,6 +118,24 @@ img.header-image,
 	}
 }
 
-.category-speaker-interviews .speaker-announcements li {
-	margin-left: 0;
+.category-speaker-interviews {
+	.speaker-announcements li {
+		margin-left: 0;
+	}
+
+	.site-content {
+		.archive-header .archive-title {
+			font-size: 0;
+			text-align: center;
+			color: white;
+			width: max-content;
+			margin: 0 auto;
+			line-height: 1;
+
+			span {
+				font-size: 2.5rem;
+				color: $lanc_orange;
+			}
+		}
+	}
 }
