@@ -491,6 +491,10 @@ img.header-image,
   margin-left: 0;
 }
 
+.category-speaker-interviews .site-content .archive-header {
+  border: 0;
+}
+
 .category-speaker-interviews .site-content .archive-header .archive-title {
   font-size: 0;
   text-align: center;
