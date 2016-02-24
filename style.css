@@ -505,7 +505,7 @@ img.header-image,
   color: #ff4122;
 }
 
-.category-speaker-interviews .site-content .archive-meta:hover p:after, .category-speaker-interviews .site-content .archive-meta:focus p:after {
+.category-speaker-interviews .site-content .archive-meta:hover:after, .category-speaker-interviews .site-content .archive-meta:focus:after {
   background-position: 0 -54px;
 }
 
@@ -533,7 +533,7 @@ img.header-image,
   top: 10px;
 }
 
-.category-speaker-interviews .site-content .archive-meta p:after {
+.category-speaker-interviews .site-content .archive-meta:after {
   content: '';
   background: transparent url("https://2016.lancasterpa.wordcamp.org/files/2016/02/wapuuji-sprite.png") no-repeat;
   display: block;
