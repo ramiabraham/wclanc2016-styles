@@ -524,7 +524,7 @@ img.header-image,
   background: #f8cd00;
   position: relative;
   padding: 1rem;
-  margin: 0;
+  margin: 0 auto;
   color: inherit;
   background: #ededed;
   border-radius: .5rem;
@@ -536,6 +536,7 @@ img.header-image,
 @media (min-width: 1024px) {
   .category-speaker-interviews .site-content .archive-meta p {
     width: 70%;
+    margin: 0;
   }
 }
 
