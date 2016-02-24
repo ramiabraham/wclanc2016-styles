@@ -523,7 +523,7 @@ img.header-image,
 .category-speaker-interviews .site-content .archive-meta p:before {
   content: '';
   position: absolute;
-  display: none;
+  display: block;
   bottom: 18px;
   left: -18px;
   border-width: 0px 20px 17px;

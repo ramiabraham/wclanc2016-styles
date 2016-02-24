@@ -159,15 +159,10 @@ img.header-image,
 				border-radius: .5rem;
 				width: 100%;
 
-				@include wider-than(tablet-portrait) {
-					width: 70%;
-					margin-left: 20%;
-				}
-
 				&:before {
 					content: '';
 					position: absolute;
-					display: none;
+					display: block;
 					bottom: 18px;
 					left: -18px;
 					border-width: 0px 20px 17px;
@@ -175,10 +170,6 @@ img.header-image,
 					border-color: #ededed transparent;
 					width: 0;
 					top: 10px;
-
-					@include wider-than(tablet-portrait) {
-						display: block;
-					}
 				}
 			}
 
