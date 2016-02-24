@@ -9,12 +9,6 @@ body {
   background-size: 1600px 800px;
 }
 
-@media (min-width: 960px) {
-  body {
-    background-size: cover;
-  }
-}
-
 #page {
   width: 100%;
   max-width: 100%;
@@ -393,7 +387,7 @@ input[type="reset"] {
   font-size: x-large;
 }
 
-@media (min-width: 721px) {
+@media (min-width: 960px) {
   .single-author article.post .entry-title a {
     font-size: 2.2rem;
     font-size: xx-large;
@@ -508,6 +502,18 @@ img.header-image,
 .category-speaker-interviews .site-content .archive-header .archive-title span {
   font-size: 7vw;
   color: #ff4122;
+}
+
+@media (min-width: 430px) {
+  .category-speaker-interviews .site-content .archive-header .archive-title span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 820px) {
+  .category-speaker-interviews .site-content .archive-header .archive-title span {
+    font-size: 2.5rem;
+  }
 }
 
 .category-speaker-interviews .site-content .archive-meta:hover:after, .category-speaker-interviews .site-content .archive-meta:focus:after {

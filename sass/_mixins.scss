@@ -4,26 +4,21 @@ $breakpoints: (
     tp-xxlarge: 2300px,
 	tp-xlarge: 1700px,
     infographic-large: 1480px,
-    tp-large: 1300px,
-	desktop: 1200px,
+    desktop: 1200px,
     toggle-actions-menu: 1130px,
     container-width: 1120px,
-    expanded-nav: 1100px,
-    tablet-ipad-landscape: 1024px,
-    tablet-large: 960px,
-    login-form-stacked: 842px,
-    tablet-mid: 820px,
     wp-short-admin-bar: 783px,
+    tp-large: 1300px,
+    tablet-ipad-landscape: 1024px,
+    tablet: 960px,
+    tablet-mid: 820px,
     tp-legacy-tablet: 770px,
     tablet-ipad: 768px,
-    tablet: 721px,
-    infographic-medium: 698px,
-    tp-video-width: 642px,
     tablet-small: 600px,
     tp-emailtab: 480px,
     tp-legacy-small: 441px,
     phone-larger: 430px,
-    phone: 420px
+    phone: 320px
 );
 
 // 2. Mixin will run through the above key value pairs and create our media queries.
