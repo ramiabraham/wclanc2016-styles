@@ -513,24 +513,26 @@ img.header-image,
   background: #f8cd00;
   position: relative;
   padding: 1rem;
-  margin: 1rem 0 3rem;
+  margin: 0;
   color: inherit;
   background: #ededed;
   border-radius: .5rem;
-  width: 100%;
+  width: 74%;
+  float: right;
+  height: 54px;
 }
 
 .category-speaker-interviews .site-content .archive-meta p:before {
   content: '';
   position: absolute;
   display: block;
-  bottom: 18px;
-  left: -18px;
-  border-width: 0px 20px 17px;
+  bottom: 60px;
+  left: -20px;
+  border-width: 20px 20px 0px;
   border-style: solid;
   border-color: #ededed transparent;
   width: 0;
-  top: 10px;
+  top: 0;
 }
 
 .category-speaker-interviews .site-content .archive-meta:after {
