@@ -1,5 +1,6 @@
 html {
   background: #f8cd00;
+  overflow-x: hidden;
 }
 
 body {
