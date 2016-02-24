@@ -530,7 +530,7 @@ img.header-image,
   border-radius: .5rem;
   width: 74%;
   float: right;
-  height: 54px;
+  height: auto;
 }
 
 .category-speaker-interviews .site-content .archive-meta p:before {
