@@ -1,12 +1,6 @@
 html {
-  background: #f8cd00;
+  background: #fff;
   overflow-x: hidden;
-}
-
-body {
-  background: linear-gradient(rgba(248, 205, 0, 0.4), rgba(248, 205, 0, 0.4)), url("//lancasterpa.wordcamp.org/2016/files/2016/01/map-bg-1600x800-sharp.png") fixed 50% 0 no-repeat;
-  background-blend-mode: lighten;
-  background-size: 1600px 800px;
 }
 
 #page {
@@ -191,6 +185,11 @@ button.menu-toggle.toggled-on,
 #masthead {
   padding-top: 1em;
   padding-bottom: 0;
+}
+
+.site-header {
+  background: linear-gradient(rgba(248, 205, 0, 0.4), rgba(248, 205, 0, 0.4)), url("//lancasterpa.wordcamp.org/2016/files/2016/01/map-bg-1600x800-sharp.png") 50% 0 no-repeat fixed;
+  background-color: rgba(248, 205, 0, 0.5);
 }
 
 .site-header .site-title {
