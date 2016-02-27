@@ -1,0 +1,23 @@
+.wcpt-schedule {
+  font-size: 14px;
+
+  thead {
+    background-color: $lanc_orange;
+
+    th {
+      color: #fff;
+      font-size: 12px;
+      text-align: center;
+      line-height: 3;
+    }
+  }
+  td {
+    text-align: center;
+  }
+
+  .global-session {
+    background-color: $lanc_dark_blue;
+    color: white;
+  }
+
+}

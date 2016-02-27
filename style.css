@@ -194,6 +194,7 @@ button.menu-toggle.toggled-on,
 .site-header {
   background: linear-gradient(rgba(248, 205, 0, 0.4), rgba(248, 205, 0, 0.4)), url("//lancasterpa.wordcamp.org/2016/files/2016/01/map-bg-1600x800-sharp.png") 50% 0 no-repeat fixed;
   background-color: rgba(248, 205, 0, 0.5);
+  background-size: 100%;
 }
 
 .site-header .site-title {
@@ -575,6 +576,30 @@ img.header-image,
   .category-speaker-interviews .site-content .archive-meta:after {
     display: block;
   }
+}
+
+.wcpt-schedule {
+  font-size: 14px;
+}
+
+.wcpt-schedule thead {
+  background-color: #ff4122;
+}
+
+.wcpt-schedule thead th {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 3;
+}
+
+.wcpt-schedule td {
+  text-align: center;
+}
+
+.wcpt-schedule .global-session {
+  background-color: #212730;
+  color: white;
 }
 
 .widget-area aside.widget {
