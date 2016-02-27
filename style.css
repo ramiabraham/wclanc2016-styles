@@ -793,6 +793,13 @@ Sessions
     color: #f9f8e3;
 }
 
+.wcorg-sessions .wcorg-session .wcorg-session-description .wcpt-session-meta a
+{
+    text-decoration: underline;
+
+    color: #f9f8e3;
+}
+
 .widget-area aside.widget
 {
     margin-bottom: 1.5em;

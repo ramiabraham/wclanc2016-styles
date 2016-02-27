@@ -43,6 +43,11 @@ Sessions
         padding: .5rem;
         font-size: .75rem;
         color: $lanc_ivory;
+
+        a {
+          color: $lanc_ivory;
+          text-decoration: underline;
+        }
       }
     }
 
