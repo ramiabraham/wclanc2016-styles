@@ -621,7 +621,7 @@ img.header-image,
   color: white;
 }
 
-.entry-content table.wcpt-schedule tr.global-session a {
+.entry-content table.wcpt-schedule tr.global-session .wcpt-session-speakers a {
   color: inherit;
 }
 
