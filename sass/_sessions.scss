@@ -15,6 +15,10 @@ Sessions
     -webkit-column-break-inside: avoid;
     break-inside: avoid-column;
 
+    &li:nth-child(n+4) {
+      margin-top: .5rem;
+    }
+
     h2,
     .wcorg-session-description {
       padding: .5rem;
