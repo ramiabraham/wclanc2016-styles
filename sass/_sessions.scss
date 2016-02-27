@@ -6,12 +6,13 @@ Sessions
   display: block;
   margin: 0 auto;
   width: 100%;
+  column-count: 3;
 
   .wcorg-session {
-    float: left;
+    /*float: left;
     display: inline-block;
     width: (100% / 3);
-    margin: .5rem;
+    margin: .5rem;*/
     background: #ededed;
 
     &:nth-child(4n-7) {
@@ -21,7 +22,7 @@ Sessions
 
     h2,
     .wcorg-session-description {
-      padding: .5rem;
+      /*padding: .5rem;*/
     }
   }
 }

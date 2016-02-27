@@ -654,13 +654,14 @@ Sessions
   display: block;
   margin: 0 auto;
   width: 100%;
+  column-count: 3;
 }
 
 .wcorg-sessions .wcorg-session {
-  float: left;
-  display: inline-block;
-  width: 33.3333333333%;
-  margin: .5rem;
+  /*float: left;
+    display: inline-block;
+    width: (100% / 3);
+    margin: .5rem;*/
   background: #ededed;
 }
 
@@ -670,7 +671,7 @@ Sessions
 
 .wcorg-sessions .wcorg-session h2,
 .wcorg-sessions .wcorg-session .wcorg-session-description {
-  padding: .5rem;
+  /*padding: .5rem;*/
 }
 
 .widget-area aside.widget {
