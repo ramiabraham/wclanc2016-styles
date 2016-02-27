@@ -791,6 +791,13 @@ Sessions
     padding: .5rem;
 }
 
+.wcorg-sessions .wcorg-session .wcorg-session-description .wcpt-session-meta .avatar
+{
+    display: block;
+
+    margin: 0 auto;
+}
+
 .wcorg-sessions .wcorg-session .wcorg-session-description .wcpt-session-meta a
 {
     text-decoration: underline;
