@@ -14,19 +14,23 @@
   }
   td {
     text-align: center;
+    line-height: 1.5;
+  }
+
+  a.wcpt-session-title {
+    font-weight: bold;
   }
 
   .wcpt-session-speakers {
     display: block;
     a {
       font-size: 12px;
-      font-weight: bold;
-      text-decoration: none;
+      color: $lanc_dark_blue;
     }
   }
 
   tr {
-    background-color: lighten($lanc_yellow, 38%);
+    background-color: lighten($lanc_light_blue, 48%);
   }
 
   tr.global-session {

@@ -596,6 +596,11 @@ img.header-image,
 
 .entry-content table.wcpt-schedule td {
   text-align: center;
+  line-height: 1.5;
+}
+
+.entry-content table.wcpt-schedule a.wcpt-session-title {
+  font-weight: bold;
 }
 
 .entry-content table.wcpt-schedule .wcpt-session-speakers {
@@ -604,12 +609,11 @@ img.header-image,
 
 .entry-content table.wcpt-schedule .wcpt-session-speakers a {
   font-size: 12px;
-  font-weight: bold;
-  text-decoration: none;
+  color: #212730;
 }
 
 .entry-content table.wcpt-schedule tr {
-  background-color: #fff3bb;
+  background-color: white;
 }
 
 .entry-content table.wcpt-schedule tr.global-session {
