@@ -649,6 +649,11 @@ img.header-image,
     display: none;
 }
 
+.session-tags
+{
+    margin: 2px;
+}
+
 /*
 Schedule
 */
