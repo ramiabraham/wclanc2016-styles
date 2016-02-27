@@ -30,15 +30,16 @@
   }
 
   tr {
-    background-color: lighten($lanc_light_blue, 30%);
+    background-color: lighten($lanc_light_blue, 37.5%);
   }
 
   tr.global-session {
     background-color: $lanc_dark_blue;
     color: white;
 
-    &.registration, &.lunch, &.snack-break, &.networking-party-at-commonwealth-on-queen {
-      background-color: #ddd;
+    &.keynote-panel-open-source-everywhere,
+     {
+      background-color: $lanc_light_blue;
       color: $lanc_dark_blue;
     }
 
