@@ -36,6 +36,10 @@
   tr.global-session {
     background-color: $lanc_dark_blue;
     color: white;
+
+    a {
+      color: inherit;
+    }
   }
 
 }

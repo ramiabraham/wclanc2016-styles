@@ -621,6 +621,10 @@ img.header-image,
   color: white;
 }
 
+.entry-content table.wcpt-schedule tr.global-session a {
+  color: inherit;
+}
+
 .widget-area aside.widget {
   color: #61393c;
   margin-bottom: 1.5em;
