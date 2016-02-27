@@ -19,12 +19,14 @@
   .wcpt-session-speakers {
     display: block;
     a {
-
+      font-size: 12px;
+      font-weight: bold;
+      text-decoration: none;
     }
   }
 
   tr {
-    background-color: lighten($lanc_yellow, 35%);
+    background-color: lighten($lanc_yellow, 38%);
   }
 
   tr.global-session {

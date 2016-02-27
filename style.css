@@ -602,8 +602,14 @@ img.header-image,
   display: block;
 }
 
+.entry-content table.wcpt-schedule .wcpt-session-speakers a {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .entry-content table.wcpt-schedule tr {
-  background-color: #fff1ac;
+  background-color: #fff3bb;
 }
 
 .entry-content table.wcpt-schedule tr.global-session {
