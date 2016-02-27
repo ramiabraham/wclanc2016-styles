@@ -39,14 +39,19 @@ Sessions
 
     .wcorg-session-description {
 
-        .avatar {
-          display: block;
-          margin: 0 auto;
-        }
+      .avatar {
+        display: block;
+        margin: 0 auto;
+      }
+
+      p:nth-child(2) {
+        border-top: 2px solid $lanc_ivory;
+      }
 
       .wcpt-session-meta {
         padding: .5rem;
         font-size: .75rem;
+        text-align: center;
 
         a {
           color: $lanc_dark_blue;
