@@ -583,11 +583,11 @@ img.header-image,
   font-size: 1rem;
 }
 
-.entry-content table.wcpt-schedule thead {
+.entry-content table.wcpt-schedule thead tr {
   background-color: #ff4122;
 }
 
-.entry-content table.wcpt-schedule thead th {
+.entry-content table.wcpt-schedule thead tr th {
   color: #fff;
   font-size: 12px;
   text-align: center;
@@ -602,7 +602,11 @@ img.header-image,
   display: block;
 }
 
-.entry-content table.wcpt-schedule .global-session {
+.entry-content table.wcpt-schedule tr {
+  background-color: #fff1ac;
+}
+
+.entry-content table.wcpt-schedule tr.global-session {
   background-color: #212730;
   color: white;
 }

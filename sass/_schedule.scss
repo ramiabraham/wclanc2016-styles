@@ -2,7 +2,7 @@
   font-size: 14px;
   font-size: 1rem;
 
-  thead {
+  thead tr {
     background-color: $lanc_orange;
 
     th {
@@ -23,7 +23,11 @@
     }
   }
 
-  .global-session {
+  tr {
+    background-color: lighten($lanc_yellow, 35%);
+  }
+
+  tr.global-session {
     background-color: $lanc_dark_blue;
     color: white;
   }
