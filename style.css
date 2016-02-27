@@ -621,6 +621,11 @@ img.header-image,
   color: white;
 }
 
+.entry-content table.wcpt-schedule tr.global-session.registration {
+  background-color: #fff5c5;
+  color: #212730;
+}
+
 .entry-content table.wcpt-schedule tr.global-session .wcpt-session-speakers a {
   color: #ff4122;
 }

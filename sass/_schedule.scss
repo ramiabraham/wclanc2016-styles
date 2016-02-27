@@ -37,6 +37,11 @@
     background-color: $lanc_dark_blue;
     color: white;
 
+    &.registration {
+      background-color: lighten($lanc_yellow, 40%);
+      color: $lanc_dark_blue;
+    }
+
     .wcpt-session-speakers a {
       color: $lanc_orange;
     }
