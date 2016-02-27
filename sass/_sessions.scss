@@ -2,6 +2,14 @@
 Sessions
 */
 
+.page-slug-sessions,
+.page-id-9 {
+  .entry-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
 .wcorg-sessions {
   display: block;
   margin: 0 auto;
@@ -20,5 +28,20 @@ Sessions
     .wcorg-session-description {
       padding: .5rem;
     }
+
+    h2 {
+      text-align: center;
+    }
+
+    .wcorg-session-description {
+
+      .wcpt-session-meta {
+        padding: .5rem;
+        background: white;
+        font-size: .75rem;
+      }
+    }
+
+
   }
 }

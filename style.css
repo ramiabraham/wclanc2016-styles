@@ -733,6 +733,14 @@ Schedule
 Sessions
 */
 
+.page-slug-sessions .entry-title,
+.page-id-9 .entry-title
+{
+    font-size: 2rem;
+
+    text-align: center;
+}
+
 .wcorg-sessions
 {
     display: block;
@@ -762,6 +770,20 @@ Sessions
 .wcorg-sessions .wcorg-session .wcorg-session-description
 {
     padding: .5rem;
+}
+
+.wcorg-sessions .wcorg-session h2
+{
+    text-align: center;
+}
+
+.wcorg-sessions .wcorg-session .wcorg-session-description .wcpt-session-meta
+{
+    font-size: .75rem;
+
+    padding: .5rem;
+
+    background: white;
 }
 
 .widget-area aside.widget
