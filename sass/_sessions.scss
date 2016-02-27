@@ -44,7 +44,7 @@ Sessions
         margin: 0 auto;
       }
 
-      p:nth-child(2) {
+      p:nth-of-type(2) {
         border-top: 2px solid $lanc_ivory;
       }
 

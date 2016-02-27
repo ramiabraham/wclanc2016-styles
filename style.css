@@ -791,7 +791,7 @@ Sessions
     margin: 0 auto;
 }
 
-.wcorg-sessions .wcorg-session .wcorg-session-description p:nth-child(2)
+.wcorg-sessions .wcorg-session .wcorg-session-description p:nth-of-type(2)
 {
     border-top: 2px solid #f9f8e3;
 }
