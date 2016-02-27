@@ -622,8 +622,13 @@ img.header-image,
 }
 
 .entry-content table.wcpt-schedule tr.global-session.keynote-panel-open-source-everywhere {
-  background-color: #6986b5;
+  background-color: #d8e0ec;
   color: #212730;
+}
+
+.entry-content table.wcpt-schedule tr.global-session.pre-party-remarks, .entry-content table.wcpt-schedule tr.global-session.greeting-and-opening-remarks {
+  background-color: #a5b6d2;
+  color: white;
 }
 
 .entry-content table.wcpt-schedule tr.global-session .wcpt-session-speakers a {

@@ -37,10 +37,15 @@
     background-color: $lanc_dark_blue;
     color: white;
 
-    &.keynote-panel-open-source-everywhere,
-     {
-      background-color: $lanc_light_blue;
+    &.keynote-panel-open-source-everywhere {
+      background-color: lighten($lanc_light_blue, 32.5%);
       color: $lanc_dark_blue;
+    }
+
+    &.pre-party-remarks,
+    &.greeting-and-opening-remarks {
+      background-color: lighten($lanc_light_blue, 17.5%);
+      color: white;
     }
 
     .wcpt-session-speakers a {
