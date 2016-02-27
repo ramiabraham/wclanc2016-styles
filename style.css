@@ -578,26 +578,31 @@ img.header-image,
   }
 }
 
-.wcpt-schedule {
+.entry-content table.wcpt-schedule {
   font-size: 14px;
+  font-size: 1rem;
 }
 
-.wcpt-schedule thead {
+.entry-content table.wcpt-schedule thead {
   background-color: #ff4122;
 }
 
-.wcpt-schedule thead th {
+.entry-content table.wcpt-schedule thead th {
   color: #fff;
   font-size: 12px;
   text-align: center;
   line-height: 3;
 }
 
-.wcpt-schedule td {
+.entry-content table.wcpt-schedule td {
   text-align: center;
 }
 
-.wcpt-schedule .global-session {
+.entry-content table.wcpt-schedule .wcpt-session-speakers {
+  display: block;
+}
+
+.entry-content table.wcpt-schedule .global-session {
   background-color: #212730;
   color: white;
 }

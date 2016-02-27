@@ -1,5 +1,6 @@
-.wcpt-schedule {
+.entry-content table.wcpt-schedule {
   font-size: 14px;
+  font-size: 1rem;
 
   thead {
     background-color: $lanc_orange;
@@ -13,6 +14,13 @@
   }
   td {
     text-align: center;
+  }
+
+  .wcpt-session-speakers {
+    display: block;
+    a {
+
+    }
   }
 
   .global-session {
