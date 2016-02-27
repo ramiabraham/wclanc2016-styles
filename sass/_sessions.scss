@@ -10,7 +10,7 @@ Sessions
 
   .wcorg-session {
     background: #ededed;
-    display:table;
+    display: inline-block;
     page-break-inside: avoid;
     -webkit-column-break-inside: avoid;
     break-inside: avoid-column;

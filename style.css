@@ -747,7 +747,7 @@ Sessions
 
 .wcorg-sessions .wcorg-session
 {
-    display: table;
+    display: inline-block;
 
     background: #ededed;
 
