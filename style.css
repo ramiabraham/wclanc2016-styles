@@ -759,7 +759,7 @@ Sessions
 
     margin-top: .5rem;
 
-    background: #ededed;
+    background: #6986b5;
 
     page-break-inside: avoid;
     -webkit-column-break-inside: avoid;
@@ -774,7 +774,11 @@ Sessions
 
 .wcorg-sessions .wcorg-session h2
 {
+    margin-bottom: 0;
+
     text-align: center;
+
+    border-bottom: 2px solid #212730;
 }
 
 .wcorg-sessions .wcorg-session .wcorg-session-description .wcpt-session-meta
@@ -782,8 +786,6 @@ Sessions
     font-size: .75rem;
 
     padding: .5rem;
-
-    background: white;
 }
 
 .widget-area aside.widget

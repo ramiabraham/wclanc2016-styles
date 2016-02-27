@@ -17,7 +17,7 @@ Sessions
   column-count: 3;
 
   .wcorg-session {
-    background: #ededed;
+    background: $lanc_light_blue;
     display: inline-block;
     page-break-inside: avoid;
     -webkit-column-break-inside: avoid;
@@ -31,13 +31,14 @@ Sessions
 
     h2 {
       text-align: center;
+      margin-bottom: 0;
+      border-bottom: 2px solid $lanc_dark_blue;
     }
 
     .wcorg-session-description {
 
       .wcpt-session-meta {
         padding: .5rem;
-        background: white;
         font-size: .75rem;
       }
     }
