@@ -597,6 +597,7 @@ img.header-image,
 .entry-content table.wcpt-schedule td {
   text-align: center;
   line-height: 1.5;
+  padding: 10px;
 }
 
 .entry-content table.wcpt-schedule a.wcpt-session-title {
