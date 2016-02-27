@@ -800,6 +800,7 @@ Sessions
 .wcorg-sessions .wcorg-session .wcorg-session-description p:nth-of-type(2)
 {
     margin-top: .5rem;
+    padding-top: 1rem;
 
     border-top: 2px solid #212730;
 }
