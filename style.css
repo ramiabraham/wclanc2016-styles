@@ -759,7 +759,7 @@ Sessions
 
     margin-top: .5rem;
 
-    color: white;
+    color: #f9f8e3;
     background: #6986b5;
 
     page-break-inside: avoid;
@@ -771,6 +771,8 @@ Sessions
 .wcorg-sessions .wcorg-session .wcorg-session-description
 {
     padding: .5rem;
+
+    color: #61393c;
 }
 
 .wcorg-sessions .wcorg-session h2

@@ -23,11 +23,12 @@ Sessions
     -webkit-column-break-inside: avoid;
     break-inside: avoid-column;
     margin-top: .5rem;
-    color: white;
+    color: $lanc_ivory;
 
     h2,
     .wcorg-session-description {
       padding: .5rem;
+      color: $lanc_brown;
     }
 
     h2 {
