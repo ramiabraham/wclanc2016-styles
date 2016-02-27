@@ -11,5 +11,12 @@ Sessions
     float: left;
     display: inline-block;
     width: (100% / 3);
+    padding: .5rem;
+    background: #ededed;
+
+    h2,
+    .wcorg-session-description {
+      padding: .5rem;
+    }
   }
 }
