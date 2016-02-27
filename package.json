@@ -9,7 +9,7 @@
     "css-parse": "latest",
     "glob": "latest",
     "grunt": "latest",
-    "grunt-autoprefixer": "latest",
+    "grunt-autoprefixer": "^3.0.4",
     "grunt-combine-media-queries": "latest",
     "grunt-contrib-clean": "latest",
     "grunt-contrib-concat": "latest",

@@ -13,42 +13,6 @@ module.exports = function(grunt) {
 			}
 		},
 
-		sprite: {
-			all: {
-				'src': 'images/sprites/*.png',
-				'dest': 'images/sprites.png',
-				'destCss': 'sass/base/_sprites.scss',
-				'imgPath': 'images/sprites.png',
-				'algorithm': 'binary-tree',
-			}
-		},
-
-		svgmin: {
-			dist: {
-				files: [{
-					expand: true,
-					cwd: 'images/svg',
-					src: ['*.svg'],
-					dest: 'images/svg'
-				}]
-			}
-		},
-
-		svgstore: {
-			options: {
-				prefix: 'icon-',
-				cleanup: ['fill', 'style'],
-				svg: {
-					style: 'display: none;'
-				}
-			},
-			default: {
-				files: {
-					'images/svg-defs.svg': ['images/svg/*.svg'],
-				}
-			}
-		},
-
 		sass: {
 			options: {
 				sourceMap: true,
@@ -68,7 +32,7 @@ module.exports = function(grunt) {
 
 		autoprefixer: {
 			options: {
-				browsers: ['last 2 versions', 'ie 9']
+				browsers: ['last 2 versions', 'ie 10']
 			},
 			dist: {
 				src: ['*.css', '!*.min.css', '!bower_components', '!node_modules']
@@ -256,11 +220,6 @@ module.exports = function(grunt) {
 	});
 
 	grunt.registerTask('styles', ['sass', 'autoprefixer', 'cmq', 'csscomb', 'cssmin']);
-	grunt.registerTask('javascript', ['concat', 'uglify']);
-	grunt.registerTask('imageminnewer', ['newer:imagemin']);
-	grunt.registerTask('sprites', ['sprite']);
-	grunt.registerTask('icons', ['svgmin', 'svgstore']);
-	grunt.registerTask('i18n', ['makepot']);
-	grunt.registerTask('default', ['styles', 'javascript', 'imageminnewer', 'icons', 'i18n']);
+	grunt.registerTask('default', ['styles']);
 
 };
