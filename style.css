@@ -749,16 +749,13 @@ Sessions
 {
     display: inline-block;
 
+    margin-top: .5rem;
+
     background: #ededed;
 
     page-break-inside: avoid;
     -webkit-column-break-inside: avoid;
     break-inside: avoid-column;
-}
-
-.wcorg-sessions .wcorg-session:nth-child(n+4)
-{
-    margin-top: .5rem;
 }
 
 .wcorg-sessions .wcorg-session h2,
