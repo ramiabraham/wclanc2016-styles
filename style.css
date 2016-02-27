@@ -578,6 +578,17 @@ img.header-image,
   }
 }
 
+.postid-1111 .speaker-avatar {
+  display: none;
+}
+
+.postid-1111 .speaker-avatar img {
+  display: none;
+}
+
+/*
+Schedule
+*/
 .entry-content table.wcpt-schedule {
   font-size: 14px;
   font-size: 1rem;
@@ -634,6 +645,17 @@ img.header-image,
 
 .entry-content table.wcpt-schedule tr.global-session .wcpt-session-speakers a {
   color: #ff4122;
+}
+
+/*
+Sessions
+*/
+.wcorg-sessions {
+  display: flex;
+}
+
+.wcorg-sessions .wcorg-session {
+  flex: 1;
 }
 
 .widget-area aside.widget {
