@@ -756,7 +756,7 @@ Sessions
     break-inside: avoid-column;
 }
 
-.wcorg-sessions .wcorg-sessionli:nth-child(n+4)
+.wcorg-sessions .wcorg-session:nth-child(n+4)
 {
     margin-top: .5rem;
 }
