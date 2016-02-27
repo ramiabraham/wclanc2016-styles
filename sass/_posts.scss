@@ -212,3 +212,13 @@ img.header-image,
 		}
 	}
 }
+
+// Panelist does not have gravatar email image, using custom image instead
+
+.postid-1111 .speaker-avatar {
+	display: none;
+
+	img {
+		display: none;
+	}
+}
