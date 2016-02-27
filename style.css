@@ -1,43 +1,34 @@
-html
-{
-    overflow-x: hidden;
-
-    background: #fff;
+html {
+  background: #fff;
+  overflow-x: hidden;
 }
 
-body
-{
-    background: #fff;
+body {
+  background: #fff;
 }
 
-#page
-{
-    width: 100%;
-    max-width: 100%;
-    margin-top: 2em;
-    margin-bottom: 0;
-    padding-right: 0;
-    padding-left: 0;
-
-    background: none;
+#page {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  background: none;
+  margin-top: 2em;
+  margin-bottom: 0;
 }
 
-footer[role='contentinfo']
-{
-    margin-top: none;
-
-    border-top: none;
+footer[role="contentinfo"] {
+  border-top: none;
+  margin-top: none;
 }
 
-footer[role='contentinfo'] a
-{
-    color: #ff4122;
+footer[role="contentinfo"] a {
+  color: #ff4122;
 }
 
-body
-{
-    font-family: 'Roboto Slab', serif;
-    font-size: 16px;
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
 }
 
 h1,
@@ -47,435 +38,394 @@ h4,
 h5,
 h6,
 .site-title,
-.site-description
-{
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-    font-weight: bold;
-
-    color: #6986b5;
+.site-description {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #6986b5;
 }
 
-.site-header .site-title
-{
-    text-align: center;
+.site-header .site-title {
+  text-align: center;
 }
 
-.site-branding
-{
-    margin: 0 auto;
-
-    text-align: center;
+.site-branding {
+  text-align: center;
+  margin: 0 auto;
 }
 
-a
-{
-    color: #4e6c9d;
+a {
+  color: #4e6c9d;
 }
 
-a:hover
-{
-    color: #3d557b;
+a:hover {
+  color: #3d557b;
 }
 
 .entry-content a,
-.comment-content a
-{
-    color: #ff4122;
+.comment-content a {
+  color: #ff4122;
 }
 
 .entry-content a:visited,
-.comment-content a:visited
-{
-    color: #ff4122;
+.comment-content a:visited {
+  color: #ff4122;
 }
 
 .entry-content a:hover,
-.comment-content a:hover
-{
-    color: #bb1a00;
+.comment-content a:hover {
+  color: #bb1a00;
 }
 
-#site-navigation
-{
-    color: #fff;
-    background-color: #ff4122;
+#site-navigation {
+  background-color: #ff4122;
+  color: #fff;
 }
 
 #site-navigation ul.nav-menu,
-#site-navigation div.nav-menu > ul
-{
+#site-navigation div.nav-menu > ul {
+  text-align: center;
+  border-width: 0;
+}
+
+@media (max-width: 600px) {
+  #menu-nav {
+    width: 100%;
+  }
+  #menu-nav li {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+  #menu-nav li a {
+    width: 100%;
+    padding-top: 5px;
+    display: block;
+    padding-bottom: 5px;
     text-align: center;
-
-    border-width: 0;
+    text-decoration: none;
+  }
 }
 
-#site-navigation li a
-{
-    color: #fff;
+#site-navigation li a {
+  color: #fff;
 }
 
-.main-navigation
-{
-    font-family: 'Montserrat', sans-serif;
+.main-navigation {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-navigation .current-menu-item > a,
 .main-navigation .current-menu-ancestor > a,
 .main-navigation .current_page_item > a,
-.main-navigation .current_page_ancestor > a
-{
-    position: relative;
+.main-navigation .current_page_ancestor > a {
+  position: relative;
 }
 
-#site-navigation li.menu-item-has-children:hover a:after
-{
-    border-bottom-color: #bb1a00;
+@media (min-width: 600px) {
+  .main-navigation .current-menu-item > a:after,
+  .main-navigation .current-menu-ancestor > a:after,
+  .main-navigation .current_page_item > a:after,
+  .main-navigation .current_page_ancestor > a:after,
+  #site-navigation li:hover > a:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-bottom: .75em solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    left: calc(50% - 1em);
+  }
 }
 
-.main-navigation li ul li a
-{
-    text-align: left;
-
-    border-bottom: 0;
-    background: #bb1a00;
+#site-navigation li.menu-item-has-children:hover a:after {
+  border-bottom-color: #bb1a00;
 }
 
-.main-navigation li ul li a:hover,
-.main-navigation li ul li a:focus
-{
-    background: #881300;
+.main-navigation li ul li a {
+  background: #bb1a00;
+  border-bottom: 0;
+  text-align: left;
 }
 
-#site-navigation li ul li a:after
-{
-    display: none;
+.main-navigation li ul li a:hover, .main-navigation li ul li a:focus {
+  background: #881300;
 }
 
-#main
-{
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3rem 2em;
-
-    background: #fff;
+#site-navigation li ul li a:after {
+  display: none;
 }
 
-button.menu-toggle
-{
-    font-size: 1rem;
+#main {
+  background: #fff;
+  padding: 3rem 2em;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
-    width: 100%;
-
-    color: #fff;
-    border: none;
-    border-radius: none;
-    background-color: #ff4122;
-    background-image: initial;
+button.menu-toggle {
+  background-color: #ff4122;
+  color: #fff;
+  border: none;
+  border-radius: none;
+  background-image: initial;
+  width: 100%;
+  font-size: 1rem;
 }
 
 button.menu-toggle.toggled-on,
 .menu-toggle:hover,
-.menu-toggle:focus
-{
-    color: #fff;
-    border: none;
-    background-color: #bb1a00;
-    background-image: initial;
-    box-shadow: none;
+.menu-toggle:focus {
+  color: #fff;
+  background-color: #bb1a00;
+  background-image: initial;
+  border: none;
+  box-shadow: none;
 }
 
-#masthead
-{
-    padding-top: 1em;
-    padding-bottom: 0;
+#masthead {
+  padding-top: 1em;
+  padding-bottom: 0;
 }
 
-.site-header
-{
-    background: linear-gradient(rgba(248, 205, 0, .4), rgba(248, 205, 0, .4)), url('//lancasterpa.wordcamp.org/2016/files/2016/01/map-bg-1600x800-sharp.png') 50% 0 no-repeat fixed;
-    background-color: rgba(248, 205, 0, .5);
-    background-size: 100%;
+.site-header {
+  background: linear-gradient(rgba(248, 205, 0, 0.4), rgba(248, 205, 0, 0.4)), url("//lancasterpa.wordcamp.org/2016/files/2016/01/map-bg-1600x800-sharp.png") 50% 0 no-repeat fixed;
+  background-color: rgba(248, 205, 0, 0.5);
+  background-size: 100%;
 }
 
-.site-header .site-title
-{
-    height: 14.5rem;
-    height: 9rem;
-    padding-top: 0;
-    padding-top: 12.5rem;
-
-    text-align: center;
+.site-header .site-title {
+  height: 14.5rem;
+  padding-top: 0;
+  text-align: center;
+  height: 9rem;
+  padding-top: 12.5rem;
 }
 
-.site-header .site-title a
-{
-    font-size: 0;
-    font-weight: bold;
-    line-height: 1;
-
-    display: block;
-
-    max-width: 330px;
-    height: auto;
-    margin: 0 auto;
-
-    text-align: center;
-    text-indent: -9999px;
-
-    color: #61393c;
+.site-header .site-title a {
+  display: block;
+  text-align: center;
+  color: #61393c;
+  max-width: 330px;
+  height: auto;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 0;
+  line-height: 1;
+  text-indent: -9999px;
 }
 
-.site-header .site-title a:before,
-.site-header .site-title a:after
-{
-    display: block;
-
-    margin: 0 auto;
-
-    text-indent: 0;
+.site-header .site-title a:before, .site-header .site-title a:after {
+  margin: 0 auto;
+  text-indent: 0;
+  display: block;
 }
 
-.site-header .site-title a:before
-{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.3rem;
-
-    width: 300px;
-
-    content: 'WordCamp';
-    text-transform: uppercase;
+.site-header .site-title a:before {
+  content: 'WordCamp';
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  width: 300px;
 }
 
-.site-header .site-title a:after
-{
-    font-family: 'Roboto Slab', serif;
+@media (min-width: 430px) {
+  .site-header .site-title a:before {
     font-size: 3.3rem;
-    font-weight: 300;
-
-    content: 'Lancaster';
-    text-align: center;
-    letter-spacing: .5rem;
-    text-transform: lowercase;
+  }
 }
 
-.site-header .site-title a:hover
-{
-    color: #3d557b;
+.site-header .site-title a:after {
+  content: 'Lancaster';
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 300;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: .5rem;
+  font-size: 3.3rem;
 }
 
-.site-header h2
-{
-    line-height: 1.3rem;
+@media (min-width: 430px) {
+  .site-header .site-title a:after {
+    font-size: 4.3rem;
+  }
 }
 
-.site-description
-{
-    font-size: 1.5em;
-    line-height: 1.4;
-
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-
-    display: block;
-
-    height: auto;
-    height: 20px;
-    padding: .5em;
-
-    content: '';
-    text-align: center;
-
-    color: #fff;
-    background: transparent;
-    background: #ff4122;
+.site-header .site-title a:hover {
+  color: #3d557b;
 }
 
-.site-description:after
-{
-    font-family: 'Montserrat', sans-serif;
-
-    position: relative;
-    top: 36px;
-
-    display: block;
-
-    width: 300px;
-    height: 159px;
-    margin: 0 auto;
-
-    content: '';
-    text-transform: uppercase;
-
-    background: url('//lancasterpa.wordcamp.org/2016/files/2015/11/cropped-cropped-wordcamp-lancaster-logo-2016.png') top center no-repeat;
-    background-size: contain;
+.site-header h2 {
+  line-height: 1.3rem;
 }
 
-.admin-bar .site-description
-{
-    top: 32px;
+.site-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  height: auto;
+  padding: .5em;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  display: block;
+  content: '';
+  height: 20px;
+  line-height: 1.4;
+  background: #ff4122;
 }
 
-.site-header h2
-{
-    text-align: center;
-
-    color: #fff;
+.site-description:after {
+  content: '';
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  background: url("//lancasterpa.wordcamp.org/2016/files/2015/11/cropped-cropped-wordcamp-lancaster-logo-2016.png") top center no-repeat;
+  background-size: contain;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  height: 159px;
+  width: 300px;
+  top: 36px;
 }
 
-.fp-links
-{
-    display: block;
+.admin-bar .site-description {
+  top: 32px;
 }
 
-.fp-links a:hover,
-.fp-links a:focus
-{
-    top: 2px;
-
-    box-shadow: 0 4px #d32c13;
+.site-header h2 {
+  color: #ffffff;
+  text-align: center;
 }
 
-.fp-links a:active
-{
-    top: 6px;
-
-    box-shadow: 0 0 #d32c13;
+.fp-links {
+  display: block;
 }
 
-.fp-links a:visited
-{
-    color: white;
+.fp-links a:hover, .fp-links a:focus {
+  box-shadow: 0 4px #D32C13;
+  top: 2px;
+}
+
+.fp-links a:active {
+  box-shadow: 0 0 #D32C13;
+  top: 6px;
+}
+
+.fp-links a:visited {
+  color: white;
 }
 
 .fp-links a,
 a.lanc-btn,
-input[type='submit'],
-input[type='button'],
-input[type='reset'],
-#subscribe-submit input[type=submit]
-{
-    font-family: Montserrat, 'Helvetica Neue', sans-serif;
-    font-size: 1rem;
-
-    position: relative;
-
-    display: block;
-
-    box-sizing: border-box;
-    width: 100%;
-    margin: .5rem 0;
-    padding: .5rem;
-
-    transition: none;
-    text-align: center;
-    text-decoration: none;
-
-    color: white;
-    border: 0;
-    border-radius: 0;
-    outline: 0;
-    background: #f93e21;
-    box-shadow: 0 6px #d32c13;
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+#subscribe-submit input[type=submit] {
+  background: #F93E21;
+  color: white;
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  padding: .5rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  position: relative;
+  box-shadow: 0 6px #D32C13;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+  border-radius: 0;
+  border: 0;
+  outline: 0;
+  margin: .5rem 0;
+  box-sizing: border-box;
 }
 
-.fp-links a:hover,
-.fp-links a:focus,
+.fp-links a:hover, .fp-links a:focus,
 a.lanc-btn:hover,
-input[type='submit']:hover,
-input[type='button']:hover,
-input[type='reset']:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
 #subscribe-submit input[type=submit]:hover,
 a.lanc-btn:focus,
-input[type='submit']:focus,
-input[type='button']:focus,
-input[type='reset']:focus,
-#subscribe-submit input[type=submit]:focus
-{
-    top: 2px;
-
-    box-shadow: 0 4px #d32c13;
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+#subscribe-submit input[type=submit]:focus {
+  box-shadow: 0 4px #D32C13;
+  top: 2px;
 }
 
 .fp-links a:active,
 a.lanc-btn:active,
-input[type='submit']:active,
-input[type='button']:active,
-input[type='reset']:active,
-#subscribe-submit input[type=submit]:active
-{
-    top: 6px;
-
-    box-shadow: 0 0 #d32c13;
+input[type="submit"]:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+#subscribe-submit input[type=submit]:active {
+  box-shadow: 0 0 #D32C13;
+  top: 6px;
 }
 
-.widget-area .widget a.lanc-btn,
-.widget-area .widget input[type='submit'],
-.widget-area .widget
-input[type='button'],
-.widget-area .widget
-input[type='reset'],
-.widget-area .widget #subscribe-submit input[type=submit],
-#subscribe-submit .widget-area .widget input[type=submit]
-{
-    color: white;
+.widget-area .widget a.lanc-btn, .widget-area .widget input[type="submit"], .widget-area .widget
+input[type="button"], .widget-area .widget
+input[type="reset"], .widget-area .widget #subscribe-submit input[type=submit], #subscribe-submit .widget-area .widget input[type=submit] {
+  color: white;
 }
 
-input[type='submit'],
-input[type='button'],
-input[type='reset']
-{
-    width: auto;
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+  width: auto;
 }
 
-.single-author article.post .entry-title a
-{
-    font-size: 1.6rem;
-    font-size: x-large;
-
-    color: #61393c;
+.single-author article.post .entry-title a {
+  color: #61393c;
+  font-size: 1.6rem;
+  font-size: x-large;
 }
 
-.note
-{
-    line-height: 1.5;
-
-    padding: 1rem 0 .625rem 0;
-    padding: .5rem;
-
-    color: #62393b;
-    border-bottom: 2px solid #62393b;
-    border-radius: 3px;
-    background: #f9cf00;
+@media (min-width: 960px) {
+  .single-author article.post .entry-title a {
+    font-size: 2.2rem;
+    font-size: xx-large;
+    font-size: -webkit-xxx-large;
+  }
 }
 
-.note ul,
-.note li
-{
-    list-style-position: inside;
-
-    text-align: left;
+.note {
+  background: #F9CF00;
+  border-bottom: 2px solid #62393B;
+  border-radius: 3px;
+  padding: 1rem 0 .625rem 0;
+  color: #62393B;
+  line-height: 1.5;
+  padding: .5rem;
 }
 
-.note table
-{
-    border-bottom: 1px solid #edec76;
+.note ul, .note li {
+  list-style-position: inside;
+  text-align: left;
 }
 
-.note table td
-{
-    padding: 1rem;
-
-    color: #61393c;
-    border-top: 1px solid #edec76;
+.note table {
+  border-bottom: 1px solid #EDEC76;
 }
 
-.note.left
-{
-    text-align: left;
+.note table td {
+  border-top: 1px solid #EDEC76;
+  padding: 1rem;
+  color: #61393c;
+}
+
+.note.left {
+  text-align: left;
 }
 
 img.wp-post-image,
@@ -483,587 +433,385 @@ img.wp-post-image,
 .comment-content img,
 .widget img,
 img.header-image,
-.author-avatar img
-{
-    box-shadow: none;
+.author-avatar img {
+  box-shadow: none;
 }
 
-.entry-content ul.speaker-announcements
-{
-    list-style: none;
+.entry-content ul.speaker-announcements {
+  list-style: none;
 }
 
-.entry-content ul.speaker-announcements li h3
-{
+.entry-content ul.speaker-announcements li h3 {
+  color: #ff4122;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.entry-content ul.speaker-announcements li .img-wrap {
+  display: block;
+  margin: 0 auto;
+  width: 270px;
+  height: 270px;
+  background: transparent url("https://lancasterpa.wordcamp.org/2016/files/2016/02/lanc-speaker-avatar-bg.png") no-repeat center center;
+  background-size: contain;
+}
+
+.entry-content ul.speaker-announcements li img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 9px;
+  border-radius: 50%;
+  width: 252px;
+  height: 252px;
+}
+
+.entry-content ul.speaker-announcements hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.entry-content ul.speaker-announcements hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.category-speaker-interviews .speaker-announcements li {
+  margin-left: 0;
+}
+
+.category-speaker-interviews .site-content .archive-header {
+  border: 0;
+}
+
+.category-speaker-interviews .site-content .archive-header .archive-title {
+  font-size: 0;
+  text-align: center;
+  color: white;
+  width: max-content;
+  margin: 0 auto;
+  line-height: 1;
+}
+
+.category-speaker-interviews .site-content .archive-header .archive-title span {
+  font-size: 7vw;
+  color: #ff4122;
+}
+
+@media (min-width: 430px) {
+  .category-speaker-interviews .site-content .archive-header .archive-title span {
     font-size: 1.5rem;
-    line-height: 1;
-
-    text-align: center;
-
-    color: #ff4122;
+  }
 }
 
-.entry-content ul.speaker-announcements li .img-wrap
-{
+@media (min-width: 820px) {
+  .category-speaker-interviews .site-content .archive-header .archive-title span {
+    font-size: 2.5rem;
+  }
+}
+
+.category-speaker-interviews .site-content .archive-meta:hover:after, .category-speaker-interviews .site-content .archive-meta:focus:after {
+  background-position: 0 -54px;
+}
+
+.category-speaker-interviews .site-content .archive-meta p {
+  background: #f8cd00;
+  position: relative;
+  padding: 1rem;
+  margin: 0 auto;
+  color: inherit;
+  background: #ededed;
+  border-radius: .5rem;
+  width: 100%;
+  float: right;
+  height: auto;
+}
+
+@media (min-width: 1024px) {
+  .category-speaker-interviews .site-content .archive-meta p {
+    width: 70%;
+    margin: 0;
+  }
+}
+
+.category-speaker-interviews .site-content .archive-meta p:before {
+  content: '';
+  position: absolute;
+  display: none;
+  bottom: 60px;
+  left: -20px;
+  border-width: 20px 20px 0px;
+  border-style: solid;
+  border-color: #ededed transparent;
+  width: 0;
+  top: 0;
+}
+
+@media (min-width: 1024px) {
+  .category-speaker-interviews .site-content .archive-meta p:before {
     display: block;
-
-    width: 270px;
-    height: 270px;
-    margin: 0 auto;
-
-    background: transparent url('https://lancasterpa.wordcamp.org/2016/files/2016/02/lanc-speaker-avatar-bg.png') no-repeat center center;
-    background-size: contain;
+  }
 }
 
-.entry-content ul.speaker-announcements li img
-{
+.category-speaker-interviews .site-content .archive-meta:after {
+  content: '';
+  background: transparent url("https://2016.lancasterpa.wordcamp.org/files/2016/02/wapuuji-sprite.png") no-repeat;
+  display: none;
+  width: 150px;
+  height: 54px;
+  background-position: 0 0;
+}
+
+@media (min-width: 1024px) {
+  .category-speaker-interviews .site-content .archive-meta:after {
     display: block;
-
-    width: 252px;
-    height: 252px;
-    margin: 0 auto;
-    padding-top: 9px;
-
-    border-radius: 50%;
+  }
 }
 
-.entry-content ul.speaker-announcements hr
-{
-    height: 30px;
-
-    border-width: 1px 0 0 0;
-    border-style: solid;
-    border-color: #8c8b8b;
-    border-radius: 20px;
-    background-color: transparent;
+.postid-1111 .speaker-avatar {
+  display: none;
 }
 
-.entry-content ul.speaker-announcements hr:before
-{
-    display: block;
-
-    height: 30px;
-    margin-top: -31px;
-
-    content: '';
-
-    border-width: 0 0 1px 0;
-    border-style: solid;
-    border-color: #8c8b8b;
-    border-radius: 20px;
-}
-
-.category-speaker-interviews .speaker-announcements li
-{
-    margin-left: 0;
-}
-
-.category-speaker-interviews .site-content .archive-header
-{
-    border: 0;
-}
-
-.category-speaker-interviews .site-content .archive-header .archive-title
-{
-    font-size: 0;
-    line-height: 1;
-
-    width: -webkit-max-content;
-    width:    -moz-max-content;
-    width:         max-content;
-    margin: 0 auto;
-
-    text-align: center;
-
-    color: white;
-}
-
-.category-speaker-interviews .site-content .archive-header .archive-title span
-{
-    font-size: 7vw;
-
-    color: #ff4122;
-}
-
-.category-speaker-interviews .site-content .archive-meta:hover:after,
-.category-speaker-interviews .site-content .archive-meta:focus:after
-{
-    background-position: 0 -54px;
-}
-
-.category-speaker-interviews .site-content .archive-meta p
-{
-    position: relative;
-
-    float: right;
-
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding: 1rem;
-
-    color: inherit;
-    border-radius: .5rem;
-    background: #f8cd00;
-    background: #ededed;
-}
-
-.category-speaker-interviews .site-content .archive-meta p:before
-{
-    position: absolute;
-    top: 0;
-    bottom: 60px;
-    left: -20px;
-
-    display: none;
-
-    width: 0;
-
-    content: '';
-
-    border-width: 20px 20px 0;
-    border-style: solid;
-    border-color: #ededed transparent;
-}
-
-.category-speaker-interviews .site-content .archive-meta:after
-{
-    display: none;
-
-    width: 150px;
-    height: 54px;
-
-    content: '';
-
-    background: transparent url('https://2016.lancasterpa.wordcamp.org/files/2016/02/wapuuji-sprite.png') no-repeat;
-    background-position: 0 0;
-}
-
-.postid-1111 .speaker-avatar
-{
-    display: none;
-}
-
-.postid-1111 .speaker-avatar img
-{
-    display: none;
+.postid-1111 .speaker-avatar img {
+  display: none;
 }
 
 /*
 Schedule
 */
-
-.entry-content table.wcpt-schedule
-{
-    font-size: 14px;
-    font-size: 1rem;
+.entry-content table.wcpt-schedule {
+  font-size: 14px;
+  font-size: 1rem;
 }
 
-.entry-content table.wcpt-schedule thead tr
-{
-    background-color: #ff4122;
+.entry-content table.wcpt-schedule thead tr {
+  background-color: #ff4122;
 }
 
-.entry-content table.wcpt-schedule thead tr th
-{
-    font-size: 12px;
-    line-height: 3;
-
-    text-align: center;
-
-    color: #fff;
+.entry-content table.wcpt-schedule thead tr th {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 3;
 }
 
-.entry-content table.wcpt-schedule td
-{
-    line-height: 1.5;
-
-    padding: 10px;
-
-    text-align: center;
+.entry-content table.wcpt-schedule td {
+  text-align: center;
+  line-height: 1.5;
+  padding: 10px;
 }
 
-.entry-content table.wcpt-schedule a.wcpt-session-title
-{
-    font-weight: bold;
+.entry-content table.wcpt-schedule a.wcpt-session-title {
+  font-weight: bold;
 }
 
-.entry-content table.wcpt-schedule .wcpt-session-speakers
-{
-    display: block;
+.entry-content table.wcpt-schedule .wcpt-session-speakers {
+  display: block;
 }
 
-.entry-content table.wcpt-schedule .wcpt-session-speakers a
-{
-    font-size: 12px;
-
-    color: #212730;
+.entry-content table.wcpt-schedule .wcpt-session-speakers a {
+  font-size: 12px;
+  color: #212730;
 }
 
-.entry-content table.wcpt-schedule tr
-{
-    background-color: #f2f4f8;
+.entry-content table.wcpt-schedule tr {
+  background-color: #f2f4f8;
 }
 
-.entry-content table.wcpt-schedule tr.global-session
-{
-    color: white;
-    background-color: #212730;
+.entry-content table.wcpt-schedule tr.global-session {
+  background-color: #212730;
+  color: white;
 }
 
-.entry-content table.wcpt-schedule tr.global-session.keynote-panel-open-source-everywhere
-{
-    color: #212730;
-    background-color: #cfd9e8;
+.entry-content table.wcpt-schedule tr.global-session.keynote-panel-open-source-everywhere {
+  background-color: #cfd9e8;
+  color: #212730;
 }
 
-.entry-content table.wcpt-schedule tr.global-session.pre-party-remarks,
-.entry-content table.wcpt-schedule tr.global-session.greeting-and-opening-remarks
-{
-    color: #212730;
-    background-color: #adbdd7;
+.entry-content table.wcpt-schedule tr.global-session.pre-party-remarks, .entry-content table.wcpt-schedule tr.global-session.greeting-and-opening-remarks {
+  background-color: #adbdd7;
+  color: #212730;
 }
 
-.entry-content table.wcpt-schedule tr.global-session .wcpt-session-speakers a
-{
-    color: #ff4122;
+.entry-content table.wcpt-schedule tr.global-session .wcpt-session-speakers a {
+  color: #ff4122;
 }
 
 /*
 Sessions
 */
-
-.wcorg-sessions
-{
-    display: block;
-
-    width: 100%;
-    margin: 0 auto;
-
-    -webkit-column-count: 3;
-       -moz-column-count: 3;
-            column-count: 3;
+.wcorg-sessions {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  column-count: 3;
 }
 
-.wcorg-sessions .wcorg-session
-{
-    /*float: left;
-    display: inline-block;
-    width: (100% / 3);
-    margin: .5rem;*/
-    background: #ededed;
-}
-
-.wcorg-sessions .wcorg-session:nth-child(4n-7)
-{
-    margin-left: 0;
+.wcorg-sessions .wcorg-session {
+  background: #ededed;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+  display: table;
 }
 
 .wcorg-sessions .wcorg-session h2,
-.wcorg-sessions .wcorg-session .wcorg-session-description
-{
-    padding: .5rem;
+.wcorg-sessions .wcorg-session .wcorg-session-description {
+  padding: .5rem;
 }
 
-.widget-area aside.widget
-{
-    margin-bottom: 1.5em;
-
-    color: #61393c;
+.widget-area aside.widget {
+  color: #61393c;
+  margin-bottom: 1.5em;
 }
 
-.widget-area aside.widget .widget-title
-{
-    font-size: 1.3em;
-
-    color: #61393c;
-    border-top: 3px solid #ff4122;
+.widget-area aside.widget .widget-title {
+  border-top: 3px solid #ff4122;
+  color: #61393c;
+  font-size: 1.3em;
 }
 
-.widget-area aside.widget .widget-title a
-{
-    color: #61393c;
+.widget-area aside.widget .widget-title a {
+  color: #61393c;
 }
 
-.widget-area .widget_search #s
-{
-    width: 90%;
-    width: calc(100% - 12px);
-
-    border: 0;
-    border-radius: 0;
+.widget-area .widget_search #s {
+  width: 90%;
+  width: calc(100% - 12px);
+  border: 0;
+  border-radius: 0;
 }
 
-.widget-area .widget_search input[type=submit]
-{
-    display: none;
+.widget-area .widget_search input[type=submit] {
+  display: none;
 }
 
-.widget-title
-{
-    line-height: 1.5;
-
-    padding: 25px 0 0;
+.widget-title {
+  line-height: 1.5;
+  padding: 25px 0 0;
 }
 
-.note
-{
-    line-height: 1.5;
-
-    padding-bottom: 10px;
-
-    text-align: center;
+.note {
+  line-height: 1.5;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
-#subscribe-email
-{
-    margin-bottom: 10px;
+#subscribe-email {
+  margin-bottom: 10px;
 }
 
-#subscribe-email input
-{
-    font-size: 1.25rem;
-
-    width: 98% !important;
-    padding: .5rem .25rem;
-
-    text-align: center;
-
-    color: black;
-    border: 0;
-    border-bottom: 4px solid white;
-    border-radius: 0;
-    outline: 0;
-    background: #ededed;
+#subscribe-email input {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 4px solid white;
+  width: 98% !important;
+  background: #ededed;
+  padding: .5rem .25rem;
+  font-size: 1.25rem;
+  color: black;
+  text-align: center;
+  outline: 0;
 }
 
-#subscribe-email input:active,
-#subscribe-email input:focus
-{
-    border-bottom: 4px solid #ff4122;
+#subscribe-email input:active, #subscribe-email input:focus {
+  border-bottom: 4px solid #ff4122;
 }
 
 .confit-address,
-.confit-hour
-{
-    line-height: 1.5;
-
-    padding: 10px 0;
+.confit-hour {
+  padding: 10px 0;
+  line-height: 1.5;
 }
 
-.textwidget .wcorg-sponsor-description p
-{
-    display: none;
+.textwidget .wcorg-sponsor-description p {
+  display: none;
 }
 
-.wcb_widget_sponsors .sponsor-logo
-{
-    margin: .5em 0;
+.wcb_widget_sponsors .sponsor-logo {
+  margin: .5em 0;
 }
 
-.wcb_widget_sponsors img
-{
-    box-shadow: none;
+.wcb_widget_sponsors img {
+  box-shadow: none;
 }
 
-#tix-attendees li
-{
-    margin: 0;
+#tix-attendees li {
+  margin: 0;
 }
 
-#text-2 h3 span
-{
-    font-weight: 400;
+#text-2 h3 span {
+  font-weight: 400;
 }
 
-#text-2 h4
-{
-    font-size: 1.5em;
-    line-height: 1;
-
-    display: inline;
+#text-2 h4 {
+  display: inline;
+  font-size: 1.5em;
+  line-height: 1;
 }
 
-#text-2 h4 a
-{
-    text-decoration: none;
-
-    color: #c9341a;
+#text-2 h4 a {
+  color: #c9341a;
+  text-decoration: none;
 }
 
-#text-2 h4 a:hover
-{
-    text-decoration: underline;
+#text-2 h4 a:hover {
+  text-decoration: underline;
 }
 
 .wcb_widget_sponsors .sponsor-level-title,
-#text-3 h2
-{
-    font-size: 1.5em;
-
-    margin: 1.5em 0 .5em;
-
-    text-align: center;
+#text-3 h2 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1.5em 0 .5em;
 }
 
 #text-3 h3,
-#text-3 .sharedaddy
-{
-    display: none;
+#text-3 .sharedaddy {
+  display: none;
 }
 
-#text-3 .widget-title
-{
-    display: block;
+#text-3 .widget-title {
+  display: block;
 }
 
-#text-3 img
-{
-    box-shadow: none;
+#text-3 img {
+  box-shadow: none;
 }
 
-#text-3 .wcorg-sponsor
-{
-    text-align: center;
+#text-3 .wcorg-sponsor {
+  text-align: center;
 }
 
-#text-3 #wcorg-sponsor-700025 img
-{
-    background: #fff;
+#text-3 #wcorg-sponsor-700025 img {
+  background: #fff;
 }
 
-@media (min-width: 430px)
-{
-    .site-header .site-title a:before
-    {
-        font-size: 3.3rem;
-    }
-
-    .site-header .site-title a:after
-    {
-        font-size: 4.3rem;
-    }
-
-    .category-speaker-interviews .site-content .archive-header .archive-title span
-    {
-        font-size: 1.5rem;
-    }
+@media (max-width: 782px) {
+  .admin-bar #text-2 {
+    top: 46px;
+  }
 }
 
-@media (min-width: 600px)
-{
-    .main-navigation .current-menu-item > a:after,
-    .main-navigation .current-menu-ancestor > a:after,
-    .main-navigation .current_page_item > a:after,
-    .main-navigation .current_page_ancestor > a:after,
-    #site-navigation li:hover > a:after
-    {
-        position: absolute;
-        bottom: 0;
-        left: 40%;
-        left: calc(50% - 1em);
-
-        width: 0;
-        height: 0;
-
-        content: '';
-
-        border-right: 1em solid transparent;
-        border-bottom: .75em solid #fff;
-        border-left: 1em solid transparent;
-    }
+@media only screen and (min-width: 1024px) {
+  .fp-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fp-links a {
+    width: max-content;
+    min-width: 14rem;
+  }
 }
 
-@media (min-width: 820px)
-{
-    .category-speaker-interviews .site-content .archive-header .archive-title span
-    {
-        font-size: 2.5rem;
-    }
-}
-
-@media (min-width: 960px)
-{
-    .single-author article.post .entry-title a
-    {
-        font-size: 2.2rem;
-        font-size: xx-large;
-        font-size: -webkit-xxx-large;
-    }
-}
-
-@media (min-width: 1024px)
-{
-    .category-speaker-interviews .site-content .archive-meta p
-    {
-        width: 70%;
-        margin: 0;
-    }
-
-    .category-speaker-interviews .site-content .archive-meta p:before
-    {
-        display: block;
-    }
-
-    .category-speaker-interviews .site-content .archive-meta:after
-    {
-        display: block;
-    }
-}
-
-@media only screen and (min-width: 1024px)
-{
-    .fp-links
-    {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display:         flex;
-
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-                justify-content: space-between;
-    }
-
-    .fp-links a
-    {
-        width: -webkit-max-content;
-        width:    -moz-max-content;
-        width:         max-content;
-        min-width: 14rem;
-    }
-}
-
-@media (max-width: 782px)
-{
-    .admin-bar #text-2
-    {
-        top: 46px;
-    }
-}
-
-@media (max-width: 600px)
-{
-    #menu-nav
-    {
-        width: 100%;
-    }
-
-    #menu-nav li
-    {
-        font-size: 1rem;
-
-        margin-top: 0;
-    }
-
-    #menu-nav li a
-    {
-        display: block;
-
-        width: 100%;
-        padding-top: 5px;
-        padding-bottom: 5px;
-
-        text-align: center;
-        text-decoration: none;
-    }
-}
+/*# sourceMappingURL=style.css.map */

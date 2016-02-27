@@ -9,16 +9,11 @@ Sessions
   column-count: 3;
 
   .wcorg-session {
-    /*float: left;
-    display: inline-block;
-    width: (100% / 3);
-    margin: .5rem;*/
     background: #ededed;
-
-    &:nth-child(4n-7) {
-      margin-left: 0;
-    }
-
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    display:table;
 
     h2,
     .wcorg-session-description {
