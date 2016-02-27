@@ -25,6 +25,11 @@ Sessions
     margin-top: .5rem;
     color: $lanc_ivory;
 
+    &:hover,
+    &:focus {
+      background: $lanc_light_blue;
+    }
+
     h2,
     .wcorg-session-description {
       padding: .5rem;

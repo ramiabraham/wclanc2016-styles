@@ -767,6 +767,12 @@ Sessions
     break-inside: avoid-column;
 }
 
+.wcorg-sessions .wcorg-session:hover,
+.wcorg-sessions .wcorg-session:focus
+{
+    background: #6986b5;
+}
+
 .wcorg-sessions .wcorg-session h2,
 .wcorg-sessions .wcorg-session .wcorg-session-description
 {
