@@ -613,7 +613,7 @@ img.header-image,
 }
 
 .entry-content table.wcpt-schedule tr {
-  background-color: #ebeff5;
+  background-color: #f2f4f8;
 }
 
 .entry-content table.wcpt-schedule tr.global-session {
@@ -622,12 +622,12 @@ img.header-image,
 }
 
 .entry-content table.wcpt-schedule tr.global-session.keynote-panel-open-source-everywhere {
-  background-color: #dde4ee;
+  background-color: #cfd9e8;
   color: #212730;
 }
 
 .entry-content table.wcpt-schedule tr.global-session.pre-party-remarks, .entry-content table.wcpt-schedule tr.global-session.greeting-and-opening-remarks {
-  background-color: #cfd9e8;
+  background-color: #adbdd7;
   color: #212730;
 }
 

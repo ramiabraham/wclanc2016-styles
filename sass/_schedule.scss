@@ -30,7 +30,7 @@
   }
 
   tr {
-    background-color: lighten($lanc_light_blue, 38%);
+    background-color: lighten($lanc_light_blue, 40%);
   }
 
   tr.global-session {
@@ -38,13 +38,13 @@
     color: white;
 
     &.keynote-panel-open-source-everywhere {
-      background-color: lighten($lanc_light_blue, 34%);
+      background-color: lighten($lanc_light_blue, 30%);
       color: $lanc_dark_blue;
     }
 
     &.pre-party-remarks,
     &.greeting-and-opening-remarks {
-      background-color: lighten($lanc_light_blue, 30%);
+      background-color: lighten($lanc_light_blue, 20%);
       color: $lanc_dark_blue;
     }
 
