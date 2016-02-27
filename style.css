@@ -651,6 +651,11 @@ img.header-image,
 
 .session-tags
 {
+    display: block;
+}
+
+.session-tag
+{
     margin: 2px;
 }
 
