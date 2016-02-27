@@ -652,6 +652,9 @@ Sessions
 */
 .wcorg-sessions {
   display: flex;
+  margin: 0 auto;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .wcorg-sessions .wcorg-session {
