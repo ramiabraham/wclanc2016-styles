@@ -38,8 +38,8 @@
     color: white;
 
     &.registration, &.lunch, &.snack-break, &.networking-party-at-commonwealth-on-queen {
-      background-color: lighten($lanc_dark_blue, 30%);
-      color: #fff;
+      background-color: #ddd;
+      color: $lanc_dark_blue;
     }
 
     .wcpt-session-speakers a {
