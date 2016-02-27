@@ -781,7 +781,7 @@ Sessions
 
     text-align: center;
 
-    border-bottom: 2px solid #212730;
+    border-bottom: 4px solid #212730;
 }
 
 .wcorg-sessions .wcorg-session .wcorg-session-description .avatar
@@ -793,7 +793,9 @@ Sessions
 
 .wcorg-sessions .wcorg-session .wcorg-session-description p:nth-of-type(2)
 {
-    border-top: 2px solid #f9f8e3;
+    margin-top: .5rem;
+
+    border-top: 2px solid #212730;
 }
 
 .wcorg-sessions .wcorg-session .wcorg-session-description .wcpt-session-meta
