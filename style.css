@@ -660,8 +660,12 @@ Sessions
   float: left;
   display: inline-block;
   width: 33.3333333333%;
-  padding: .5rem;
+  margin: .5rem;
   background: #ededed;
+}
+
+.wcorg-sessions .wcorg-session:nth-child(4n-7) {
+  margin-left: 0;
 }
 
 .wcorg-sessions .wcorg-session h2,
