@@ -613,7 +613,7 @@ img.header-image,
 }
 
 .entry-content table.wcpt-schedule tr {
-  background-color: #e9edf4;
+  background-color: #ebeff5;
 }
 
 .entry-content table.wcpt-schedule tr.global-session {
@@ -622,13 +622,13 @@ img.header-image,
 }
 
 .entry-content table.wcpt-schedule tr.global-session.keynote-panel-open-source-everywhere {
-  background-color: #d8e0ec;
+  background-color: #dde4ee;
   color: #212730;
 }
 
 .entry-content table.wcpt-schedule tr.global-session.pre-party-remarks, .entry-content table.wcpt-schedule tr.global-session.greeting-and-opening-remarks {
-  background-color: #a5b6d2;
-  color: white;
+  background-color: #cfd9e8;
+  color: #212730;
 }
 
 .entry-content table.wcpt-schedule tr.global-session .wcpt-session-speakers a {

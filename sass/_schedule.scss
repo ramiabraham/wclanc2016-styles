@@ -30,7 +30,7 @@
   }
 
   tr {
-    background-color: lighten($lanc_light_blue, 37.5%);
+    background-color: lighten($lanc_light_blue, 38%);
   }
 
   tr.global-session {
@@ -38,14 +38,14 @@
     color: white;
 
     &.keynote-panel-open-source-everywhere {
-      background-color: lighten($lanc_light_blue, 32.5%);
+      background-color: lighten($lanc_light_blue, 34%);
       color: $lanc_dark_blue;
     }
 
     &.pre-party-remarks,
     &.greeting-and-opening-remarks {
-      background-color: lighten($lanc_light_blue, 17.5%);
-      color: white;
+      background-color: lighten($lanc_light_blue, 30%);
+      color: $lanc_dark_blue;
     }
 
     .wcpt-session-speakers a {
