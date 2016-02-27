@@ -621,9 +621,9 @@ img.header-image,
   color: white;
 }
 
-.entry-content table.wcpt-schedule tr.global-session.registration {
-  background-color: #4b586c;
-  color: #212730;
+.entry-content table.wcpt-schedule tr.global-session.registration, .entry-content table.wcpt-schedule tr.global-session.lunch, .entry-content table.wcpt-schedule tr.global-session.snack-break, .entry-content table.wcpt-schedule tr.global-session.networking-party-at-commonwealth-on-queen {
+  background-color: #5f718b;
+  color: #fff;
 }
 
 .entry-content table.wcpt-schedule tr.global-session .wcpt-session-speakers a {
