@@ -760,7 +760,7 @@ Sessions
     margin-top: .5rem;
 
     color: #f9f8e3;
-    background: #6986b5;
+    background: #f6fcfd;
 
     page-break-inside: avoid;
     -webkit-column-break-inside: avoid;
@@ -772,7 +772,7 @@ Sessions
 {
     padding: .5rem;
 
-    color: #f9f8e3;
+    color: #212730;
 }
 
 .wcorg-sessions .wcorg-session h2
@@ -781,7 +781,6 @@ Sessions
 
     text-align: center;
 
-    color: #212730;
     border-bottom: 2px solid #212730;
 }
 
@@ -790,15 +789,13 @@ Sessions
     font-size: .75rem;
 
     padding: .5rem;
-
-    color: #f9f8e3;
 }
 
 .wcorg-sessions .wcorg-session .wcorg-session-description .wcpt-session-meta a
 {
     text-decoration: underline;
 
-    color: #f9f8e3;
+    color: #212730;
 }
 
 .widget-area aside.widget
