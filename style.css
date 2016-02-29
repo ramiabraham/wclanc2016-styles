@@ -833,12 +833,12 @@ Sessions
 
 #wcorg-session-451.wcorg-session .wcorg-session-description .avatar
 {
-    float: left;
+    display: inline-block;
 }
 
 #wcorg-session-451.wcorg-session .wcorg-session-description .avatar:nth-child(2)
 {
-    float: right;
+    margin-left: 1rem;
 }
 
 .widget-area aside.widget
