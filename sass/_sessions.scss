@@ -76,6 +76,10 @@ Sessions
   .wcorg-session-description {
     .avatar {
       float: left;
+
+      &:nth-child(2) {
+        float: right;
+      }
     }
   }
 }
