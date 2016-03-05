@@ -777,6 +777,11 @@ Sessions
     break-inside: avoid-column;
 }
 
+.wcorg-sessions .wcorg-session img
+{
+    max-width: 100%;
+}
+
 .wcorg-sessions .wcorg-session:hover,
 .wcorg-sessions .wcorg-session:focus
 {

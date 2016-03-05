@@ -29,6 +29,10 @@ Sessions
     margin-top: .5rem;
     color: $lanc_ivory;
 
+    img {
+      max-width: 100%;
+    }
+
     &:hover,
     &:focus {
       background: $lanc_lightest_blue_alt;
